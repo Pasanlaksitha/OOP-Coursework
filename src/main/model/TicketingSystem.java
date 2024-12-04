@@ -1,0 +1,121 @@
+package main.model;
+
+import java.util.Scanner;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+
+public class TicketingSystem {
+    public static boolean isRunning = false;
+    public static TicketPool ticketPool;
+    public static int totalTickets, maxTicketCapacity, ticketReleaseRate, customerRetrievalRate;
+
+    public static void main(String[] args) {
+        configureSystem();
+        ticketPool = new TicketPool(totalTickets);
+        commandLoop();
+    }
+
+    private static void configureSystem() {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            try {
+                System.out.print("Enter maximum ticket capacity: ");
+                maxTicketCapacity = Integer.parseInt(scanner.nextLine());
+
+                System.out.print("Enter total tickets to start with: ");
+                totalTickets = Integer.parseInt(scanner.nextLine());
+                if (totalTickets > maxTicketCapacity) {
+                    throw new IllegalArgumentException("Total tickets cannot exceed maximum capacity.");
+                }
+
+                System.out.print("Enter ticket release rate (tickets/second): ");
+                ticketReleaseRate = Integer.parseInt(scanner.nextLine());
+
+                System.out.print("Enter customer retrieval rate (tickets/second): ");
+                customerRetrievalRate = Integer.parseInt(scanner.nextLine());
+
+                if (maxTicketCapacity > 0 && totalTickets >= 0 && ticketReleaseRate > 0 && customerRetrievalRate > 0) {
+                    break;
+                } else {
+                    throw new IllegalArgumentException("All values must be positive.");
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input. " + e.getMessage());
+            }
+        }
+
+        System.out.println("System configured successfully!");
+    }
+
+
+    private static void quesition_list()  {
+        try {
+                System.out.print("Enter maximum ticket capacity: ");
+                maxTicketCapacity = Integer.parseInt(scanner.nextLine());
+
+                System.out.print("Enter total tickets to start with: ");
+                totalTickets = Integer.parseInt(scanner.nextLine());
+                if (totalTickets > maxTicketCapacity) {
+                    throw new IllegalArgumentException("Total tickets cannot exceed maximum capacity.");
+                }
+
+                System.out.print("Enter ticket release rate (tickets/second): ");
+                ticketReleaseRate = Integer.parseInt(scanner.nextLine());
+
+                System.out.print("Enter customer retrieval rate (tickets/second): ");
+                customerRetrievalRate = Integer.parseInt(scanner.nextLine());
+
+                if (maxTicketCapacity > 0 && totalTickets >= 0 && ticketReleaseRate > 0 && customerRetrievalRate > 0) {
+                    break;
+                } else {
+                    throw new IllegalArgumentException("All values must be positive.");
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input. " + e.getMessage());
+            }
+    }
+
+    private static void commandLoop() {
+        Scanner scanner = new Scanner(System.in);
+        ExecutorService executor = null;
+
+        while (true) {
+            System.out.print("Enter command (start/stop/exit): ");
+            String command = scanner.nextLine().trim();
+
+            switch (command.toLowerCase()) {
+                case "start":
+                    if (!isRunning) {
+                        isRunning = true;
+                        executor = Executors.newFixedThreadPool(2);
+                        executor.execute(new Vendor());
+                        executor.execute(new Customer());
+                        System.out.println("System started.");
+                    } else {
+                        System.out.println("System is already running.");
+                    }
+                    break;
+                case "stop":
+                    if (isRunning) {
+                        isRunning = false;
+                        executor.shutdownNow();
+                        System.out.println("System stopped.");
+                    } else {
+                        System.out.println("System is not running.");
+                    }
+                    break;
+                case "exit":
+                    if (isRunning) {
+                        isRunning = false;
+                        executor.shutdownNow();
+                    }
+                    System.out.println("Exiting the system.");
+                    return;
+                default:
+                    System.out.println("Invalid command. Try 'start', 'stop', or 'exit'.");
+            }
+        }
+    }
+}
