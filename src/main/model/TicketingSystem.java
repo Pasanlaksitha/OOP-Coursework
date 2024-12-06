@@ -10,72 +10,79 @@ public class TicketingSystem {
     public static TicketPool ticketPool;
     public static int totalTickets, maxTicketCapacity, ticketReleaseRate, customerRetrievalRate;
 
+
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         configureSystem();
         ticketPool = new TicketPool(totalTickets);
         commandLoop();
     }
 
     private static void configureSystem() {
-        Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
         while (true) {
             try {
                 System.out.print("Enter maximum ticket capacity: ");
                 maxTicketCapacity = Integer.parseInt(scanner.nextLine());
-
-                System.out.print("Enter total tickets to start with: ");
-                totalTickets = Integer.parseInt(scanner.nextLine());
-                if (totalTickets > maxTicketCapacity) {
-                    throw new IllegalArgumentException("Total tickets cannot exceed maximum capacity.");
-                }
-
-                System.out.print("Enter ticket release rate (tickets/second): ");
-                ticketReleaseRate = Integer.parseInt(scanner.nextLine());
-
-                System.out.print("Enter customer retrieval rate (tickets/second): ");
-                customerRetrievalRate = Integer.parseInt(scanner.nextLine());
-
-                if (maxTicketCapacity > 0 && totalTickets >= 0 && ticketReleaseRate > 0 && customerRetrievalRate > 0) {
+                if (maxTicketCapacity > 0) {
                     break;
                 } else {
-                    throw new IllegalArgumentException("All values must be positive.");
+                    throw new IllegalArgumentException("Maximum ticket capacity must be greater than zero.");
                 }
             } catch (Exception e) {
                 System.out.println("Invalid input. " + e.getMessage());
             }
         }
 
-        System.out.println("System configured successfully!");
-    }
-
-
-    private static void quesition_list()  {
-        try {
-                System.out.print("Enter maximum ticket capacity: ");
-                maxTicketCapacity = Integer.parseInt(scanner.nextLine());
-
+        while (true) {
+            try {
                 System.out.print("Enter total tickets to start with: ");
                 totalTickets = Integer.parseInt(scanner.nextLine());
-                if (totalTickets > maxTicketCapacity) {
-                    throw new IllegalArgumentException("Total tickets cannot exceed maximum capacity.");
-                }
-
-                System.out.print("Enter ticket release rate (tickets/second): ");
-                ticketReleaseRate = Integer.parseInt(scanner.nextLine());
-
-                System.out.print("Enter customer retrieval rate (tickets/second): ");
-                customerRetrievalRate = Integer.parseInt(scanner.nextLine());
-
-                if (maxTicketCapacity > 0 && totalTickets >= 0 && ticketReleaseRate > 0 && customerRetrievalRate > 0) {
+                if (totalTickets >= 0 && totalTickets <= maxTicketCapacity) {
                     break;
                 } else {
-                    throw new IllegalArgumentException("All values must be positive.");
+                    throw new IllegalArgumentException("Total tickets must be non-negative and less than or equal to the maximum capacity.");
                 }
             } catch (Exception e) {
                 System.out.println("Invalid input. " + e.getMessage());
             }
+        }
+
+
+        while (true) {
+            try {
+                System.out.print("Enter ticket release rate (tickets/second): ");
+                ticketReleaseRate = Integer.parseInt(scanner.nextLine());
+                if (ticketReleaseRate > 0) {
+                    break;
+                } else {
+                    throw new IllegalArgumentException("Ticket release rate must be greater than zero.");
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input. " + e.getMessage());
+            }
+        }
+
+
+        while (true) {
+            try {
+                System.out.print("Enter customer retrieval rate (tickets/second): ");
+                customerRetrievalRate = Integer.parseInt(scanner.nextLine());
+                if (customerRetrievalRate > 0) {
+                    break;
+                } else {
+                    throw new IllegalArgumentException("Customer retrieval rate must be greater than zero.");
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input. " + e.getMessage());
+            }
+        }
+
     }
+
+
 
     private static void commandLoop() {
         Scanner scanner = new Scanner(System.in);
@@ -84,6 +91,10 @@ public class TicketingSystem {
         while (true) {
             System.out.print("Enter command (start/stop/exit): ");
             String command = scanner.nextLine().trim();
+
+            if (command.isEmpty()) {
+                continue;
+            }
 
             switch (command.toLowerCase()) {
                 case "start":
