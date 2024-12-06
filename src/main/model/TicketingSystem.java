@@ -4,23 +4,19 @@ import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-
 public class TicketingSystem {
     public static boolean isRunning = false;
     public static TicketPool ticketPool;
     public static int totalTickets, maxTicketCapacity, ticketReleaseRate, customerRetrievalRate;
 
-
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         configureSystem();
         ticketPool = new TicketPool(totalTickets);
         commandLoop();
     }
 
     private static void configureSystem() {
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         while (true) {
             try {
@@ -50,7 +46,6 @@ public class TicketingSystem {
             }
         }
 
-
         while (true) {
             try {
                 System.out.print("Enter ticket release rate (tickets/second): ");
@@ -64,7 +59,6 @@ public class TicketingSystem {
                 System.out.println("Invalid input. " + e.getMessage());
             }
         }
-
 
         while (true) {
             try {
@@ -80,9 +74,8 @@ public class TicketingSystem {
             }
         }
 
+        System.out.println("System configured successfully!");
     }
-
-
 
     private static void commandLoop() {
         Scanner scanner = new Scanner(System.in);
@@ -111,7 +104,9 @@ public class TicketingSystem {
                 case "stop":
                     if (isRunning) {
                         isRunning = false;
-                        executor.shutdownNow();
+                        if (executor != null) {
+                            executor.shutdownNow();
+                        }
                         System.out.println("System stopped.");
                     } else {
                         System.out.println("System is not running.");
@@ -120,7 +115,9 @@ public class TicketingSystem {
                 case "exit":
                     if (isRunning) {
                         isRunning = false;
-                        executor.shutdownNow();
+                        if (executor != null) {
+                            executor.shutdownNow();
+                        }
                     }
                     System.out.println("Exiting the system.");
                     return;

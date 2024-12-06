@@ -6,10 +6,10 @@ public class Customer implements Runnable {
         try {
             while (TicketingSystem.isRunning) {
                 TicketingSystem.ticketPool.removeTickets(TicketingSystem.customerRetrievalRate);
-                Thread.sleep(1000); // Simulate retrieval rate
+                Thread.sleep(1000); // Simulate ticket retrieval rate (1 second)
             }
         } catch (InterruptedException e) {
-            System.out.println("main.model.Customer interrupted.");
+            System.out.println("Customer thread interrupted.");
         }
     }
 }
