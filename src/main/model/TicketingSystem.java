@@ -46,6 +46,7 @@ public class TicketingSystem {
             }
         }
 
+//        Vendor Input
         while (true) {
             try {
                 System.out.print("Enter ticket release rate (tickets/second): ");
@@ -60,6 +61,7 @@ public class TicketingSystem {
             }
         }
 
+//        Customer Input
         while (true) {
             try {
                 System.out.print("Enter customer retrieval rate (tickets/second): ");
@@ -68,6 +70,34 @@ public class TicketingSystem {
                     break;
                 } else {
                     throw new IllegalArgumentException("Customer retrieval rate must be greater than zero.");
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input. " + e.getMessage());
+            }
+        }
+//          vendor count
+        while (true) {
+            try {
+                System.out.print("Enter Vendor Count: ");
+                ticketReleaseRate = Integer.parseInt(scanner.nextLine());
+                if (ticketReleaseRate > 0) {
+                    break;
+                } else {
+                    throw new IllegalArgumentException("Vendor count must be greater than zero.");
+                }
+            } catch (Exception e) {
+                System.out.println("Invalid input. " + e.getMessage());
+            }
+        }
+//customer count
+        while (true) {
+            try {
+                System.out.print("Enter Customer Count: ");
+                ticketReleaseRate = Integer.parseInt(scanner.nextLine());
+                if (ticketReleaseRate > 0) {
+                    break;
+                } else {
+                    throw new IllegalArgumentException("Customer Count must be greater than zero.");
                 }
             } catch (Exception e) {
                 System.out.println("Invalid input. " + e.getMessage());
@@ -106,12 +136,15 @@ public class TicketingSystem {
                         isRunning = false;
                         if (executor != null) {
                             executor.shutdownNow();
+
                         }
+
                         System.out.println("System stopped.");
                     } else {
                         System.out.println("System is not running.");
                     }
                     break;
+                    //configureSystem();
                 case "exit":
                     if (isRunning) {
                         isRunning = false;
