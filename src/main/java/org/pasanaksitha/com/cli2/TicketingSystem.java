@@ -4,8 +4,13 @@ import org.pasanaksitha.com.cli2.config.Config;
 import org.pasanaksitha.com.cli2.core.Customer;
 import org.pasanaksitha.com.cli2.core.TicketPool;
 import org.pasanaksitha.com.cli2.core.Vendor;
+import org.pasanaksitha.com.cli2.util.LoggerUtil;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-public class TicketingSystem {
+@SpringBootApplication
+public class TicketingSystem implements CommandLineRunner {
 	public static boolean isRunning = true;
 	public static TicketPool ticketPool;
 	public static int ticketReleaseRate;
@@ -14,6 +19,11 @@ public class TicketingSystem {
 	public static int customerCount;
 
 	public static void main(String[] args) {
+		SpringApplication.run(TicketingSystem.class, args);
+	}
+
+	@Override
+	public void run(String... args) {
 		Config config = new Config();
 
 		// Load configuration or get user inputs
@@ -49,7 +59,7 @@ public class TicketingSystem {
 			try {
 				thread.join();
 			} catch (InterruptedException e) {
-				System.out.println("Vendor thread interrupted while waiting.");
+				LoggerUtil.infoMessage("Vendor thread interrupted while waiting.");
 			}
 		}
 
@@ -57,10 +67,10 @@ public class TicketingSystem {
 			try {
 				thread.join();
 			} catch (InterruptedException e) {
-				System.out.println("Customer thread interrupted while waiting.");
+				LoggerUtil.error("Customer thread interrupted while waiting.");
 			}
 		}
 
-		System.out.println("System shutdown. Total tickets sold: " + ticketPool.getTotalTicketsSold());
+		LoggerUtil.infoMessage("System shutdown. Total tickets sold: " + ticketPool.getTotalTicketsSold());
 	}
 }

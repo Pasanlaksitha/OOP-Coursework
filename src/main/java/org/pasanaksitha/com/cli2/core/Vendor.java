@@ -1,6 +1,7 @@
 package org.pasanaksitha.com.cli2.core;
 
 import org.pasanaksitha.com.cli2.TicketingSystem;
+import org.pasanaksitha.com.cli2.util.LoggerUtil;
 
 public class Vendor implements Runnable {
     @Override
@@ -9,13 +10,13 @@ public class Vendor implements Runnable {
             while (TicketingSystem.isRunning) {
                 boolean canContinue = TicketingSystem.ticketPool.addTickets(TicketingSystem.ticketReleaseRate);
                 if (!canContinue) {
-                    System.out.println("Vendor operations halted as all tickets are issued.");
+                    LoggerUtil.infoMessage("Vendor operations halted as all tickets are issued.");
                     break;
                 }
                 Thread.sleep(1000); // Simulate ticket addition delay
             }
         } catch (InterruptedException e) {
-            System.out.println("Vendor thread interrupted unexpectedly.");
+            LoggerUtil.error("Vendor thread interrupted unexpectedly.");
         }
     }
 }
