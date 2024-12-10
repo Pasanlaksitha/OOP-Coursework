@@ -3,6 +3,7 @@ package org.pasanaksitha.com.cli2.config;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.pasanaksitha.com.cli2.core.TicketPool;
+import org.pasanaksitha.com.cli2.util.LoggerUtil;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -39,10 +40,10 @@ public class Config {
                 this.vendorCount = loadedConfig.vendorCount;
                 this.customerCount = loadedConfig.customerCount;
 
-                System.out.println("Configuration loaded successfully!");
+                LoggerUtil.infoMessage("Configuration loaded successfully!");
                 return true;
             } catch (IOException e) {
-                System.out.println("No saved configuration found or error reading file.");
+                LoggerUtil.error("No saved configuration found or error reading file.");
             }
         }
         return false;
@@ -62,9 +63,9 @@ public class Config {
         try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(this, writer);
-            System.out.println("Configuration saved successfully!");
+            LoggerUtil.infoMessage("Configuration saved successfully!");
         } catch (IOException e) {
-            System.out.println("Error saving configuration: " + e.getMessage());
+            LoggerUtil.error("Error saving configuration: " + e.getMessage());
         }
     }
 
@@ -78,7 +79,7 @@ public class Config {
         this.vendorCount = getPositiveIntegerInput(scanner, "Enter vendor count: ");
         this.customerCount = getPositiveIntegerInput(scanner, "Enter customer count: ");
 
-        System.out.println("System configured successfully!");
+        LoggerUtil.infoMessage("System configured successfully!");
     }
 
     private int getPositiveIntegerInput(Scanner scanner, String prompt) {
@@ -89,10 +90,10 @@ public class Config {
                 if (input > 0) {
                     return input;
                 } else {
-                    System.out.println("Please enter a positive integer.");
+                    LoggerUtil.warning("Please enter a positive integer.");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Invalid input. Please enter a valid positive integer.");
+                LoggerUtil.error("Invalid input. Please enter a valid positive integer.");
             }
         }
     }

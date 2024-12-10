@@ -4,6 +4,7 @@ import org.pasanaksitha.com.cli2.config.Config;
 import org.pasanaksitha.com.cli2.core.Customer;
 import org.pasanaksitha.com.cli2.core.TicketPool;
 import org.pasanaksitha.com.cli2.core.Vendor;
+import org.pasanaksitha.com.cli2.util.LoggerUtil;
 
 public class TicketingSystem {
 	public static boolean isRunning = true;
@@ -57,10 +58,10 @@ public class TicketingSystem {
 			try {
 				thread.join();
 			} catch (InterruptedException e) {
-				System.out.println("Customer thread interrupted while waiting.");
+				LoggerUtil.infoMessage("Customer thread interrupted while waiting.");
 			}
 		}
 
-		System.out.println("System shutdown. Total tickets sold: " + ticketPool.getTotalTicketsSold());
+		LoggerUtil.infoMessage("System shutdown. Total tickets sold: " + ticketPool.getTotalTicketsSold());
 	}
 }

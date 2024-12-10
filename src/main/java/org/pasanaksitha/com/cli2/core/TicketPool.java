@@ -1,5 +1,7 @@
 package org.pasanaksitha.com.cli2.core;
 
+import org.pasanaksitha.com.cli2.util.LoggerUtil;
+
 import java.util.Vector;
 
 public class TicketPool {
@@ -17,12 +19,12 @@ public class TicketPool {
 
     public synchronized boolean addTickets(int count) throws InterruptedException {
         while (pool.size() + count > maxCapacity) {
-            System.out.println("Ticket pool full. Vendor waiting...");
+            LoggerUtil.infoMessage("Ticket pool full. Vendor waiting...");
             wait();
         }
 
         if (ticketsSold >= eventTicketLimit) {
-            System.out.println("Event ticket limit reached. No further tickets can be issued.");
+            LoggerUtil.infoMessage("Event ticket limit reached. No further tickets can be issued.");
             return false;
         }
 
@@ -32,7 +34,7 @@ public class TicketPool {
             if (ticketsSold >= eventTicketLimit) break;
         }
 
-        System.out.println("Added " + count + " tickets. Pool size: " + pool.size() + ", Total sold: " + ticketsSold);
+        LoggerUtil.infoMessage("Added " + count + " tickets. Pool size: " + pool.size() + ", Total sold: " + ticketsSold);
         notifyAll();
         return ticketsSold < eventTicketLimit;
     }
@@ -40,11 +42,11 @@ public class TicketPool {
     public synchronized boolean removeTickets(int count) throws InterruptedException {
         while (pool.size() < count) {
             if (ticketsSold >= eventTicketLimit && pool.isEmpty()) {
-                System.out.println("All tickets sold. Stopping customer operations.");
+                LoggerUtil.infoMessage("All tickets sold. Stopping customer operations.");
                 return false;
             }
 
-            System.out.println("Not enough tickets in pool. Customer waiting...");
+            LoggerUtil.infoMessage("Not enough tickets in pool. Customer waiting...");
             wait();
         }
 
@@ -52,7 +54,7 @@ public class TicketPool {
             pool.remove(pool.size() - 1);
         }
 
-        System.out.println("Removed " + count + " tickets. Remaining in pool: " + pool.size());
+        LoggerUtil.infoMessage("Purchased " + count + " tickets. Remaining in pool: " + pool.size());
         notifyAll();
         return true;
     }
