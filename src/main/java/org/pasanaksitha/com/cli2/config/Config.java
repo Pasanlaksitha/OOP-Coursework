@@ -1,17 +1,10 @@
 package org.pasanaksitha.com.cli2.config;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import org.pasanaksitha.com.cli2.core.TicketPool;
-import org.pasanaksitha.com.cli2.util.LoggerUtil;
+import org.springframework.stereotype.Component;
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
-
+@Component
 public class Config {
-    private static final String CONFIG_FILE = "config.json";
     private int totalEventTickets;
     private int maxPoolCapacity;
     private int ticketReleaseRate;
@@ -19,107 +12,77 @@ public class Config {
     private int vendorCount;
     private int customerCount;
 
-//    private static final String DEFAULT_CONFIG_FILE = "config/system_config.json";
-//    private static final String CONFIG_FILE = System.getProperty("com.pasanlaksitha.com.config.file.path", DEFAULT_CONFIG_FILE);
+    // Getters and Setters
 
-    public boolean loadConfig() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Do you want to load the saved configuration? (yes/no): ");
-        String choice = scanner.nextLine().trim().toLowerCase();
-
-        if (choice.equals("yes")) {
-            try (FileReader reader = new FileReader(CONFIG_FILE)) {
-                Gson gson = new Gson();
-                Config loadedConfig = gson.fromJson(reader, Config.class);
-
-                // Load configuration into this instance
-                this.totalEventTickets = loadedConfig.totalEventTickets;
-                this.maxPoolCapacity = loadedConfig.maxPoolCapacity;
-                this.ticketReleaseRate = loadedConfig.ticketReleaseRate;
-                this.customerRetrievalRate = loadedConfig.customerRetrievalRate;
-                this.vendorCount = loadedConfig.vendorCount;
-                this.customerCount = loadedConfig.customerCount;
-
-                LoggerUtil.infoMessage("Configuration loaded successfully!");
-                return true;
-            } catch (IOException e) {
-                LoggerUtil.error("No saved configuration found or error reading file.");
-            }
-        }
-        return false;
-    }
-
-    public void saveConfigPrompt() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Do you want to save this configuration? (yes/no): ");
-        String choice = scanner.nextLine().trim().toLowerCase();
-
-        if (choice.equals("yes")) {
-            saveConfig();
-        }
-    }
-
-    public void saveConfig() {
-        try (FileWriter writer = new FileWriter(CONFIG_FILE)) {
-            Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            gson.toJson(this, writer);
-            LoggerUtil.infoMessage("Configuration saved successfully!");
-        } catch (IOException e) {
-            LoggerUtil.error("Error saving configuration: " + e.getMessage());
-        }
-    }
-
-    public void configureSystem() {
-        Scanner scanner = new Scanner(System.in);
-
-        this.totalEventTickets = getPositiveIntegerInput(scanner, "Enter total event tickets: ");
-        this.maxPoolCapacity = getPositiveIntegerInput(scanner, "Enter maximum ticket pool capacity: ");
-        this.ticketReleaseRate = getPositiveIntegerInput(scanner, "Enter ticket release rate (tickets/second): ");
-        this.customerRetrievalRate = getPositiveIntegerInput(scanner, "Enter customer retrieval rate (tickets/second): ");
-        this.vendorCount = getPositiveIntegerInput(scanner, "Enter vendor count: ");
-        this.customerCount = getPositiveIntegerInput(scanner, "Enter customer count: ");
-
-        LoggerUtil.infoMessage("System configured successfully!");
-    }
-
-    private int getPositiveIntegerInput(Scanner scanner, String prompt) {
-        while (true) {
-            try {
-                System.out.print(prompt);
-                int input = Integer.parseInt(scanner.nextLine().trim());
-                if (input > 0) {
-                    return input;
-                } else {
-                    LoggerUtil.warning("Please enter a positive integer.");
-                }
-            } catch (NumberFormatException e) {
-                LoggerUtil.error("Invalid input. Please enter a valid positive integer.");
-            }
-        }
-    }
-
-    // Getters for configuration values
     public int getTotalEventTickets() {
         return totalEventTickets;
+    }
+
+    public void setTotalEventTickets(int totalEventTickets) {
+        this.totalEventTickets = totalEventTickets;
     }
 
     public int getMaxPoolCapacity() {
         return maxPoolCapacity;
     }
 
+    public void setMaxPoolCapacity(int maxPoolCapacity) {
+        this.maxPoolCapacity = maxPoolCapacity;
+    }
+
     public int getTicketReleaseRate() {
         return ticketReleaseRate;
+    }
+
+    public void setTicketReleaseRate(int ticketReleaseRate) {
+        this.ticketReleaseRate = ticketReleaseRate;
     }
 
     public int getCustomerRetrievalRate() {
         return customerRetrievalRate;
     }
 
+    public void setCustomerRetrievalRate(int customerRetrievalRate) {
+        this.customerRetrievalRate = customerRetrievalRate;
+    }
+
     public int getVendorCount() {
         return vendorCount;
     }
 
+    public void setVendorCount(int vendorCount) {
+        this.vendorCount = vendorCount;
+    }
+
     public int getCustomerCount() {
         return customerCount;
+    }
+
+    public void setCustomerCount(int customerCount) {
+        this.customerCount = customerCount;
+    }
+
+    // Method to update configuration via API
+    public void updateConfig(Config inputConfig) {
+        this.totalEventTickets = inputConfig.getTotalEventTickets();
+        this.maxPoolCapacity = inputConfig.getMaxPoolCapacity();
+        this.ticketReleaseRate = inputConfig.getTicketReleaseRate();
+        this.customerRetrievalRate = inputConfig.getCustomerRetrievalRate();
+        this.vendorCount = inputConfig.getVendorCount();
+        this.customerCount = inputConfig.getCustomerCount();
+    }
+
+    public void reset() {
+        this.totalEventTickets = 0;
+        this.maxPoolCapacity = 0;
+        this.ticketReleaseRate = 0;
+        this.customerRetrievalRate = 0;
+        this.vendorCount = 0;
+        this.customerCount = 0;
+    }
+
+    @Override
+    public String toString() {
+        return new Gson().toJson(this);
     }
 }
