@@ -5,14 +5,16 @@ import org.pasanaksitha.com.cli2.core.Customer;
 import org.pasanaksitha.com.cli2.core.Vendor;
 import org.pasanaksitha.com.cli2.core.TicketPool;
 import org.pasanaksitha.com.cli2.TicketingSystem;
+import org.pasanaksitha.com.cli2.util.WebConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.List;
+import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/api")
@@ -21,13 +23,16 @@ public class ConfigController {
     @Autowired
     private Config config;
 
+    // Class-level thread arrays for vendors and customers
     private Thread[] vendorThreads;
     private Thread[] customerThreads;
 
     @PostMapping("/config")
     public ResponseEntity<String> configureSystem(@RequestBody Config inputConfig) {
+        // Update configuration with inputs
         config.updateConfig(inputConfig);
 
+        // Initialize ticket pool with new config
         TicketingSystem.ticketPool = new TicketPool(
                 config.getMaxPoolCapacity(),
                 config.getTotalEventTickets()
@@ -51,16 +56,19 @@ public class ConfigController {
         vendorThreads = new Thread[TicketingSystem.vendorCount];
         customerThreads = new Thread[TicketingSystem.customerCount];
 
+        // Start vendor threads
         for (int i = 0; i < TicketingSystem.vendorCount; i++) {
             vendorThreads[i] = new Thread(new Vendor());
             vendorThreads[i].start();
         }
 
+        // Start customer threads
         for (int i = 0; i < TicketingSystem.customerCount; i++) {
             customerThreads[i] = new Thread(new Customer());
             customerThreads[i].start();
         }
 
+        // Run a monitoring thread to wait for all threads to complete
         new Thread(() -> {
             try {
                 for (Thread thread : vendorThreads) {
@@ -88,6 +96,7 @@ public class ConfigController {
 
         TicketingSystem.isRunning = false;
 
+        // Interrupt all threads
         if (vendorThreads != null) {
             for (Thread thread : vendorThreads) {
                 if (thread != null) thread.interrupt();
@@ -105,27 +114,30 @@ public class ConfigController {
 
     @PostMapping("/reset")
     public ResponseEntity<String> resetSimulation() {
+        // Stop the simulation if running
         stopSimulation();
 
+        // Reset the configuration and ticket pool
         TicketingSystem.ticketPool = null;
         TicketingSystem.ticketReleaseRate = 0;
         TicketingSystem.customerRetrievalRate = 0;
         TicketingSystem.vendorCount = 0;
         TicketingSystem.customerCount = 0;
 
-        config.reset();
+        config.reset(); // Reset the Config object (add a reset method in Config class)
 
-        return ResponseEntity.ok("Simulation reset successfully. Configure again using /config.");
+        return ResponseEntity.ok("Simulation reset successfully. configure again using /config.");
     }
 
-    @GetMapping("/logs")
-    public ResponseEntity<List<String>> getLogs(@RequestParam(defaultValue = "50") int lines) {
-        try {
-            List<String> allLines = Files.readAllLines(Paths.get("ticketingSystem.log"));
-            int start = Math.max(0, allLines.size() - lines);
-            return ResponseEntity.ok(allLines.subList(start, allLines.size()));
-        } catch (IOException e) {
-            return ResponseEntity.status(500).body(List.of("Error reading logs: " + e.getMessage()));
+    @RestController
+    public class LogController {
+        @GetMapping("/logs")
+        public List<String> getLogs() {
+            // Return a list of logs
+            List<String> logs = new ArrayList<>();
+            logs.add("[INFO] Example log 1.");
+            logs.add("[INFO] Example log 2.");
+            return logs;
         }
     }
 

@@ -1172,3 +1172,1784 @@
 [2024-12-11 13:24:18] [INFO] Purchased 10 tickets. Remaining in pool: 0
 [2024-12-11 13:24:18] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
 [2024-12-11 13:24:18] [INFO] Graceful shutdown complete
+[2024-12-11 17:27:00] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 25356 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 17:27:00] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 17:27:01] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 17:27:01] [INFO] Root WebApplicationContext: initialization completed in 1054 ms
+[2024-12-11 17:27:02] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 17:27:02] [INFO] Started TicketingSystem in 2.146 seconds (process running for 3.111)
+[2024-12-11 17:27:02] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 17:27:11] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 17:27:11] [INFO] Completed initialization in 0 ms
+[2024-12-11 17:27:11] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 17:28:55] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 17:28:59] [INFO] Added 10 tickets. Pool size: 10, Total sold: 10
+[2024-12-11 17:28:59] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:28:59] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:28:59] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:28:59] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:28:59] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:28:59] [INFO] Added 10 tickets. Pool size: 10, Total sold: 20
+[2024-12-11 17:28:59] [INFO] Added 10 tickets. Pool size: 20, Total sold: 30
+[2024-12-11 17:28:59] [INFO] Added 10 tickets. Pool size: 30, Total sold: 40
+[2024-12-11 17:28:59] [INFO] Added 10 tickets. Pool size: 40, Total sold: 50
+[2024-12-11 17:28:59] [INFO] Purchased 10 tickets. Remaining in pool: 30
+[2024-12-11 17:28:59] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:28:59] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:28:59] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 60
+[2024-12-11 17:29:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 70
+[2024-12-11 17:29:00] [INFO] Added 10 tickets. Pool size: 20, Total sold: 80
+[2024-12-11 17:29:00] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:00] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 90
+[2024-12-11 17:29:00] [INFO] Added 10 tickets. Pool size: 20, Total sold: 100
+[2024-12-11 17:29:01] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:01] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:01] [INFO] Added 10 tickets. Pool size: 10, Total sold: 110
+[2024-12-11 17:29:01] [INFO] Added 10 tickets. Pool size: 20, Total sold: 120
+[2024-12-11 17:29:01] [INFO] Added 10 tickets. Pool size: 30, Total sold: 130
+[2024-12-11 17:29:01] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:02] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:02] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:02] [INFO] Added 10 tickets. Pool size: 10, Total sold: 140
+[2024-12-11 17:29:02] [INFO] Added 10 tickets. Pool size: 20, Total sold: 150
+[2024-12-11 17:29:02] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:02] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:02] [INFO] Added 10 tickets. Pool size: 10, Total sold: 160
+[2024-12-11 17:29:02] [INFO] Added 10 tickets. Pool size: 20, Total sold: 170
+[2024-12-11 17:29:03] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:03] [INFO] Added 10 tickets. Pool size: 20, Total sold: 180
+[2024-12-11 17:29:03] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:03] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:03] [INFO] Added 10 tickets. Pool size: 10, Total sold: 190
+[2024-12-11 17:29:03] [INFO] Added 10 tickets. Pool size: 20, Total sold: 200
+[2024-12-11 17:29:03] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:03] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:03] [INFO] Added 10 tickets. Pool size: 10, Total sold: 210
+[2024-12-11 17:29:03] [INFO] Added 10 tickets. Pool size: 20, Total sold: 220
+[2024-12-11 17:29:04] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:04] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:04] [INFO] Added 10 tickets. Pool size: 10, Total sold: 230
+[2024-12-11 17:29:04] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:04] [INFO] Added 10 tickets. Pool size: 10, Total sold: 240
+[2024-12-11 17:29:04] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:04] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:04] [INFO] Added 10 tickets. Pool size: 10, Total sold: 250
+[2024-12-11 17:29:04] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:05] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:05] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:05] [INFO] Added 10 tickets. Pool size: 10, Total sold: 260
+[2024-12-11 17:29:05] [INFO] Added 10 tickets. Pool size: 20, Total sold: 270
+[2024-12-11 17:29:05] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:05] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:05] [INFO] Added 10 tickets. Pool size: 10, Total sold: 280
+[2024-12-11 17:29:05] [INFO] Added 10 tickets. Pool size: 20, Total sold: 290
+[2024-12-11 17:29:05] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:05] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:05] [INFO] Added 10 tickets. Pool size: 10, Total sold: 300
+[2024-12-11 17:29:05] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:06] [INFO] Added 10 tickets. Pool size: 10, Total sold: 310
+[2024-12-11 17:29:06] [INFO] Added 10 tickets. Pool size: 20, Total sold: 320
+[2024-12-11 17:29:06] [INFO] Added 10 tickets. Pool size: 30, Total sold: 330
+[2024-12-11 17:29:06] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:06] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:06] [INFO] Added 10 tickets. Pool size: 20, Total sold: 340
+[2024-12-11 17:29:06] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:06] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:06] [INFO] Added 10 tickets. Pool size: 10, Total sold: 350
+[2024-12-11 17:29:06] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:07] [INFO] Added 10 tickets. Pool size: 10, Total sold: 360
+[2024-12-11 17:29:07] [INFO] Added 10 tickets. Pool size: 20, Total sold: 370
+[2024-12-11 17:29:07] [INFO] Added 10 tickets. Pool size: 30, Total sold: 380
+[2024-12-11 17:29:07] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:07] [INFO] Added 10 tickets. Pool size: 30, Total sold: 390
+[2024-12-11 17:29:07] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:07] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:07] [INFO] Added 10 tickets. Pool size: 20, Total sold: 400
+[2024-12-11 17:29:07] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:07] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:08] [INFO] Added 10 tickets. Pool size: 10, Total sold: 410
+[2024-12-11 17:29:08] [INFO] Added 10 tickets. Pool size: 20, Total sold: 420
+[2024-12-11 17:29:08] [INFO] Added 10 tickets. Pool size: 30, Total sold: 430
+[2024-12-11 17:29:08] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:08] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:08] [INFO] Added 10 tickets. Pool size: 20, Total sold: 440
+[2024-12-11 17:29:08] [INFO] Added 10 tickets. Pool size: 30, Total sold: 450
+[2024-12-11 17:29:08] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:08] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:08] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:09] [INFO] Added 10 tickets. Pool size: 10, Total sold: 460
+[2024-12-11 17:29:09] [INFO] Added 10 tickets. Pool size: 20, Total sold: 470
+[2024-12-11 17:29:09] [INFO] Added 10 tickets. Pool size: 30, Total sold: 480
+[2024-12-11 17:29:09] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:09] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:09] [INFO] Added 10 tickets. Pool size: 20, Total sold: 490
+[2024-12-11 17:29:09] [INFO] Added 10 tickets. Pool size: 30, Total sold: 500
+[2024-12-11 17:29:09] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:09] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:09] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:10] [INFO] Added 10 tickets. Pool size: 10, Total sold: 510
+[2024-12-11 17:29:10] [INFO] Added 10 tickets. Pool size: 20, Total sold: 520
+[2024-12-11 17:29:10] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:10] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:10] [INFO] Added 10 tickets. Pool size: 10, Total sold: 530
+[2024-12-11 17:29:10] [INFO] Added 10 tickets. Pool size: 20, Total sold: 540
+[2024-12-11 17:29:10] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:10] [INFO] Added 10 tickets. Pool size: 20, Total sold: 550
+[2024-12-11 17:29:10] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:10] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:11] [INFO] Added 10 tickets. Pool size: 10, Total sold: 560
+[2024-12-11 17:29:11] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:11] [INFO] Added 10 tickets. Pool size: 10, Total sold: 570
+[2024-12-11 17:29:11] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:11] [INFO] Added 10 tickets. Pool size: 10, Total sold: 580
+[2024-12-11 17:29:11] [INFO] Added 10 tickets. Pool size: 20, Total sold: 590
+[2024-12-11 17:29:11] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:11] [INFO] Added 10 tickets. Pool size: 20, Total sold: 600
+[2024-12-11 17:29:11] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:11] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:12] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 610
+[2024-12-11 17:29:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:12] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 620
+[2024-12-11 17:29:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 630
+[2024-12-11 17:29:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 640
+[2024-12-11 17:29:12] [INFO] Added 10 tickets. Pool size: 20, Total sold: 650
+[2024-12-11 17:29:12] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:13] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:13] [INFO] Added 10 tickets. Pool size: 10, Total sold: 660
+[2024-12-11 17:29:13] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:13] [INFO] Added 10 tickets. Pool size: 10, Total sold: 670
+[2024-12-11 17:29:13] [INFO] Added 10 tickets. Pool size: 20, Total sold: 680
+[2024-12-11 17:29:13] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:13] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:13] [INFO] Added 10 tickets. Pool size: 10, Total sold: 690
+[2024-12-11 17:29:13] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:13] [INFO] Added 10 tickets. Pool size: 10, Total sold: 700
+[2024-12-11 17:29:13] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:14] [INFO] Added 10 tickets. Pool size: 10, Total sold: 710
+[2024-12-11 17:29:14] [INFO] Added 10 tickets. Pool size: 20, Total sold: 720
+[2024-12-11 17:29:14] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:14] [INFO] Added 10 tickets. Pool size: 20, Total sold: 730
+[2024-12-11 17:29:14] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:14] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:14] [INFO] Added 10 tickets. Pool size: 10, Total sold: 740
+[2024-12-11 17:29:14] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:14] [INFO] Added 10 tickets. Pool size: 10, Total sold: 750
+[2024-12-11 17:29:14] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:15] [INFO] Added 10 tickets. Pool size: 10, Total sold: 760
+[2024-12-11 17:29:15] [INFO] Added 10 tickets. Pool size: 20, Total sold: 770
+[2024-12-11 17:29:15] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:15] [INFO] Added 10 tickets. Pool size: 20, Total sold: 780
+[2024-12-11 17:29:15] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:15] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:15] [INFO] Added 10 tickets. Pool size: 10, Total sold: 790
+[2024-12-11 17:29:15] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:15] [INFO] Added 10 tickets. Pool size: 10, Total sold: 800
+[2024-12-11 17:29:15] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:16] [INFO] Added 10 tickets. Pool size: 10, Total sold: 810
+[2024-12-11 17:29:16] [INFO] Added 10 tickets. Pool size: 20, Total sold: 820
+[2024-12-11 17:29:16] [INFO] Added 10 tickets. Pool size: 30, Total sold: 830
+[2024-12-11 17:29:16] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:16] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:16] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:16] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:16] [INFO] Added 10 tickets. Pool size: 10, Total sold: 840
+[2024-12-11 17:29:16] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:16] [INFO] Added 10 tickets. Pool size: 10, Total sold: 850
+[2024-12-11 17:29:16] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:17] [INFO] Added 10 tickets. Pool size: 10, Total sold: 860
+[2024-12-11 17:29:17] [INFO] Added 10 tickets. Pool size: 20, Total sold: 870
+[2024-12-11 17:29:17] [INFO] Added 10 tickets. Pool size: 30, Total sold: 880
+[2024-12-11 17:29:17] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:17] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:17] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:17] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:17] [INFO] Added 10 tickets. Pool size: 10, Total sold: 890
+[2024-12-11 17:29:17] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:17] [INFO] Added 10 tickets. Pool size: 10, Total sold: 900
+[2024-12-11 17:29:17] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:18] [INFO] Added 10 tickets. Pool size: 10, Total sold: 910
+[2024-12-11 17:29:18] [INFO] Added 10 tickets. Pool size: 20, Total sold: 920
+[2024-12-11 17:29:18] [INFO] Added 10 tickets. Pool size: 30, Total sold: 930
+[2024-12-11 17:29:18] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:18] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:18] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:18] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:18] [INFO] Added 10 tickets. Pool size: 10, Total sold: 940
+[2024-12-11 17:29:18] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:18] [INFO] Added 10 tickets. Pool size: 10, Total sold: 950
+[2024-12-11 17:29:18] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:19] [INFO] Added 10 tickets. Pool size: 10, Total sold: 960
+[2024-12-11 17:29:19] [INFO] Added 10 tickets. Pool size: 20, Total sold: 970
+[2024-12-11 17:29:19] [INFO] Added 10 tickets. Pool size: 30, Total sold: 980
+[2024-12-11 17:29:19] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:19] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:19] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:19] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:19] [INFO] Added 10 tickets. Pool size: 10, Total sold: 990
+[2024-12-11 17:29:19] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:19] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1000
+[2024-12-11 17:29:19] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:20] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1010
+[2024-12-11 17:29:20] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:20] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1020
+[2024-12-11 17:29:20] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1030
+[2024-12-11 17:29:20] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:20] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:20] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:20] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1040
+[2024-12-11 17:29:20] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:20] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1050
+[2024-12-11 17:29:20] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:21] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1060
+[2024-12-11 17:29:21] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:21] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1070
+[2024-12-11 17:29:21] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1080
+[2024-12-11 17:29:21] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:21] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:21] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:21] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1090
+[2024-12-11 17:29:21] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:21] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1100
+[2024-12-11 17:29:21] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:22] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1110
+[2024-12-11 17:29:22] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:22] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1120
+[2024-12-11 17:29:22] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1130
+[2024-12-11 17:29:22] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:22] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:22] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:22] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1140
+[2024-12-11 17:29:22] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:22] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1150
+[2024-12-11 17:29:22] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:23] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1160
+[2024-12-11 17:29:23] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:23] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1170
+[2024-12-11 17:29:23] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1180
+[2024-12-11 17:29:23] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:23] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:23] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1190
+[2024-12-11 17:29:23] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:23] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1200
+[2024-12-11 17:29:23] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:24] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1210
+[2024-12-11 17:29:24] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1220
+[2024-12-11 17:29:24] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:24] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1230
+[2024-12-11 17:29:24] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:24] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:24] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1240
+[2024-12-11 17:29:24] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:24] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1250
+[2024-12-11 17:29:24] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:25] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1260
+[2024-12-11 17:29:25] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1270
+[2024-12-11 17:29:25] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:25] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1280
+[2024-12-11 17:29:25] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:25] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:25] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1290
+[2024-12-11 17:29:25] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:25] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1300
+[2024-12-11 17:29:25] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:26] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1310
+[2024-12-11 17:29:26] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1320
+[2024-12-11 17:29:26] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:26] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1330
+[2024-12-11 17:29:26] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:26] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:26] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:26] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1340
+[2024-12-11 17:29:26] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:26] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1350
+[2024-12-11 17:29:26] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:27] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1360
+[2024-12-11 17:29:27] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1370
+[2024-12-11 17:29:27] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:27] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1380
+[2024-12-11 17:29:27] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:27] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:27] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:29:27] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1390
+[2024-12-11 17:29:27] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:27] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1400
+[2024-12-11 17:29:27] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:28] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1410
+[2024-12-11 17:29:28] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1420
+[2024-12-11 17:29:28] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:28] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1430
+[2024-12-11 17:29:28] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:28] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:28] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1440
+[2024-12-11 17:29:28] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:28] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1450
+[2024-12-11 17:29:28] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:29] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1460
+[2024-12-11 17:29:29] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1470
+[2024-12-11 17:29:29] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:29] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1480
+[2024-12-11 17:29:29] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:29] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:29] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1490
+[2024-12-11 17:29:29] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:29] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1500
+[2024-12-11 17:29:29] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:30] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1510
+[2024-12-11 17:29:30] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1520
+[2024-12-11 17:29:30] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:30] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1530
+[2024-12-11 17:29:30] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:30] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1540
+[2024-12-11 17:29:30] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:30] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:30] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1550
+[2024-12-11 17:29:30] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:31] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1560
+[2024-12-11 17:29:31] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1570
+[2024-12-11 17:29:31] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:31] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1580
+[2024-12-11 17:29:31] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:31] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1590
+[2024-12-11 17:29:31] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:31] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:31] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1600
+[2024-12-11 17:29:31] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:32] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1610
+[2024-12-11 17:29:32] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1620
+[2024-12-11 17:29:32] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:32] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1630
+[2024-12-11 17:29:32] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1640
+[2024-12-11 17:29:32] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:32] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:32] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:32] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1650
+[2024-12-11 17:29:32] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:33] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1660
+[2024-12-11 17:29:33] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1670
+[2024-12-11 17:29:33] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:33] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1680
+[2024-12-11 17:29:33] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1690
+[2024-12-11 17:29:33] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:33] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:33] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:33] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1700
+[2024-12-11 17:29:33] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:34] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1710
+[2024-12-11 17:29:34] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1720
+[2024-12-11 17:29:34] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:34] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1730
+[2024-12-11 17:29:34] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1740
+[2024-12-11 17:29:34] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:34] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:34] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:34] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1750
+[2024-12-11 17:29:34] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:35] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1760
+[2024-12-11 17:29:35] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1770
+[2024-12-11 17:29:35] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:35] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1780
+[2024-12-11 17:29:35] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1790
+[2024-12-11 17:29:35] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:35] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:35] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:35] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1800
+[2024-12-11 17:29:35] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:36] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1810
+[2024-12-11 17:29:36] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1820
+[2024-12-11 17:29:36] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:36] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1830
+[2024-12-11 17:29:36] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1840
+[2024-12-11 17:29:36] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:36] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:36] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:36] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1850
+[2024-12-11 17:29:36] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:37] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1860
+[2024-12-11 17:29:37] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1870
+[2024-12-11 17:29:37] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:37] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1880
+[2024-12-11 17:29:37] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1890
+[2024-12-11 17:29:37] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:37] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:37] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:37] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1900
+[2024-12-11 17:29:37] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:38] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1910
+[2024-12-11 17:29:38] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1920
+[2024-12-11 17:29:38] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:38] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1930
+[2024-12-11 17:29:38] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1940
+[2024-12-11 17:29:38] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:38] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:38] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:38] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1950
+[2024-12-11 17:29:38] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:39] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1960
+[2024-12-11 17:29:39] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1970
+[2024-12-11 17:29:39] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:39] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1980
+[2024-12-11 17:29:39] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1990
+[2024-12-11 17:29:39] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:29:39] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:29:39] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:39] [INFO] Added 10 tickets. Pool size: 10, Total sold: 2000
+[2024-12-11 17:29:39] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:29:39] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:29:40] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:29:40] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:29:40] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:29:40] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:29:40] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:29:40] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:29:40] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:29:40] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:29:40] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:29:40] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:29:40] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:29:40] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:29:40] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:29:40] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:29:40] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:29:40] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:29:40] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:29:40] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:29:40] [INFO] Simulation completed successfully. Total tickets sold: 2000
+[2024-12-11 17:32:54] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 17:32:59] [INFO] Added 10 tickets. Pool size: 10, Total sold: 10
+[2024-12-11 17:32:59] [INFO] Added 10 tickets. Pool size: 20, Total sold: 20
+[2024-12-11 17:32:59] [INFO] Added 10 tickets. Pool size: 30, Total sold: 30
+[2024-12-11 17:32:59] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:32:59] [INFO] Added 10 tickets. Pool size: 30, Total sold: 40
+[2024-12-11 17:32:59] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:32:59] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:32:59] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:32:59] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:32:59] [INFO] Added 10 tickets. Pool size: 10, Total sold: 50
+[2024-12-11 17:32:59] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:33:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 60
+[2024-12-11 17:33:00] [INFO] Added 10 tickets. Pool size: 20, Total sold: 70
+[2024-12-11 17:33:00] [INFO] Added 10 tickets. Pool size: 30, Total sold: 80
+[2024-12-11 17:33:00] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:33:00] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:33:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:33:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 90
+[2024-12-11 17:33:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:33:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 100
+[2024-12-11 17:33:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:33:01] [INFO] Added 10 tickets. Pool size: 10, Total sold: 110
+[2024-12-11 17:33:01] [INFO] Added 10 tickets. Pool size: 20, Total sold: 120
+[2024-12-11 17:33:01] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:33:01] [INFO] Added 10 tickets. Pool size: 20, Total sold: 130
+[2024-12-11 17:33:01] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:33:01] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:33:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:33:01] [INFO] Added 10 tickets. Pool size: 10, Total sold: 140
+[2024-12-11 17:33:01] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:33:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:33:01] [INFO] Added 10 tickets. Pool size: 10, Total sold: 150
+[2024-12-11 17:33:01] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:33:01] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 17:33:01] [INFO] Simulation completed successfully. Total tickets sold: 150
+[2024-12-11 17:33:04] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 17:45:43] [INFO] Added 10 tickets. Pool size: 10, Total sold: 160
+[2024-12-11 17:45:43] [INFO] Added 10 tickets. Pool size: 20, Total sold: 170
+[2024-12-11 17:45:43] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:43] [INFO] Added 10 tickets. Pool size: 20, Total sold: 180
+[2024-12-11 17:45:43] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:43] [INFO] Added 10 tickets. Pool size: 20, Total sold: 190
+[2024-12-11 17:45:43] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:43] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:43] [INFO] Added 10 tickets. Pool size: 10, Total sold: 200
+[2024-12-11 17:45:43] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:44] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:44] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:44] [INFO] Added 10 tickets. Pool size: 10, Total sold: 210
+[2024-12-11 17:45:44] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:44] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:44] [INFO] Added 10 tickets. Pool size: 10, Total sold: 220
+[2024-12-11 17:45:44] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:44] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:44] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:44] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:44] [INFO] Added 10 tickets. Pool size: 10, Total sold: 230
+[2024-12-11 17:45:44] [INFO] Added 10 tickets. Pool size: 20, Total sold: 240
+[2024-12-11 17:45:44] [INFO] Added 10 tickets. Pool size: 30, Total sold: 250
+[2024-12-11 17:45:44] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:45:44] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:44] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:45] [INFO] Added 10 tickets. Pool size: 10, Total sold: 260
+[2024-12-11 17:45:45] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:45] [INFO] Added 10 tickets. Pool size: 10, Total sold: 270
+[2024-12-11 17:45:45] [INFO] Added 10 tickets. Pool size: 20, Total sold: 280
+[2024-12-11 17:45:45] [INFO] Added 10 tickets. Pool size: 30, Total sold: 290
+[2024-12-11 17:45:45] [INFO] Added 10 tickets. Pool size: 40, Total sold: 300
+[2024-12-11 17:45:45] [INFO] Purchased 10 tickets. Remaining in pool: 30
+[2024-12-11 17:45:45] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:45:45] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:45] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:46] [INFO] Added 10 tickets. Pool size: 10, Total sold: 310
+[2024-12-11 17:45:46] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:46] [INFO] Added 10 tickets. Pool size: 10, Total sold: 320
+[2024-12-11 17:45:46] [INFO] Added 10 tickets. Pool size: 20, Total sold: 330
+[2024-12-11 17:45:46] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:46] [INFO] Added 10 tickets. Pool size: 20, Total sold: 340
+[2024-12-11 17:45:46] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:46] [INFO] Added 10 tickets. Pool size: 20, Total sold: 350
+[2024-12-11 17:45:46] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:46] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:47] [INFO] Added 10 tickets. Pool size: 10, Total sold: 360
+[2024-12-11 17:45:47] [INFO] Added 10 tickets. Pool size: 20, Total sold: 370
+[2024-12-11 17:45:47] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:47] [INFO] Added 10 tickets. Pool size: 20, Total sold: 380
+[2024-12-11 17:45:47] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:47] [INFO] Added 10 tickets. Pool size: 20, Total sold: 390
+[2024-12-11 17:45:47] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:47] [INFO] Added 10 tickets. Pool size: 20, Total sold: 400
+[2024-12-11 17:45:47] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:47] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:48] [INFO] Added 10 tickets. Pool size: 10, Total sold: 410
+[2024-12-11 17:45:48] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:48] [INFO] Added 10 tickets. Pool size: 10, Total sold: 420
+[2024-12-11 17:45:48] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:48] [INFO] Added 10 tickets. Pool size: 10, Total sold: 430
+[2024-12-11 17:45:48] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:48] [INFO] Added 10 tickets. Pool size: 10, Total sold: 440
+[2024-12-11 17:45:48] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:48] [INFO] Added 10 tickets. Pool size: 10, Total sold: 450
+[2024-12-11 17:45:48] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:49] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:49] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:49] [INFO] Added 10 tickets. Pool size: 10, Total sold: 460
+[2024-12-11 17:45:49] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:49] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:49] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:49] [INFO] Added 10 tickets. Pool size: 10, Total sold: 470
+[2024-12-11 17:45:49] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:49] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:49] [INFO] Added 10 tickets. Pool size: 10, Total sold: 480
+[2024-12-11 17:45:49] [INFO] Added 10 tickets. Pool size: 20, Total sold: 490
+[2024-12-11 17:45:49] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:49] [INFO] Added 10 tickets. Pool size: 20, Total sold: 500
+[2024-12-11 17:45:49] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:49] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:50] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:50] [INFO] Added 10 tickets. Pool size: 10, Total sold: 510
+[2024-12-11 17:45:50] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:50] [INFO] Added 10 tickets. Pool size: 10, Total sold: 520
+[2024-12-11 17:45:50] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:50] [INFO] Added 10 tickets. Pool size: 10, Total sold: 530
+[2024-12-11 17:45:50] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:50] [INFO] Added 10 tickets. Pool size: 10, Total sold: 540
+[2024-12-11 17:45:50] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:50] [INFO] Added 10 tickets. Pool size: 10, Total sold: 550
+[2024-12-11 17:45:50] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:51] [INFO] Added 10 tickets. Pool size: 10, Total sold: 560
+[2024-12-11 17:45:51] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:51] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:51] [INFO] Added 10 tickets. Pool size: 10, Total sold: 570
+[2024-12-11 17:45:51] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:51] [INFO] Added 10 tickets. Pool size: 10, Total sold: 580
+[2024-12-11 17:45:51] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:51] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:51] [INFO] Added 10 tickets. Pool size: 10, Total sold: 590
+[2024-12-11 17:45:51] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:51] [INFO] Added 10 tickets. Pool size: 10, Total sold: 600
+[2024-12-11 17:45:51] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:52] [INFO] Added 10 tickets. Pool size: 10, Total sold: 610
+[2024-12-11 17:45:52] [INFO] Added 10 tickets. Pool size: 20, Total sold: 620
+[2024-12-11 17:45:52] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:52] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:52] [INFO] Added 10 tickets. Pool size: 10, Total sold: 630
+[2024-12-11 17:45:52] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:52] [INFO] Added 10 tickets. Pool size: 10, Total sold: 640
+[2024-12-11 17:45:52] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:52] [INFO] Added 10 tickets. Pool size: 10, Total sold: 650
+[2024-12-11 17:45:52] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:53] [INFO] Added 10 tickets. Pool size: 10, Total sold: 660
+[2024-12-11 17:45:53] [INFO] Added 10 tickets. Pool size: 20, Total sold: 670
+[2024-12-11 17:45:53] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:53] [INFO] Added 10 tickets. Pool size: 20, Total sold: 680
+[2024-12-11 17:45:53] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:53] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:53] [INFO] Added 10 tickets. Pool size: 10, Total sold: 690
+[2024-12-11 17:45:53] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:53] [INFO] Added 10 tickets. Pool size: 10, Total sold: 700
+[2024-12-11 17:45:53] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:54] [INFO] Added 10 tickets. Pool size: 10, Total sold: 710
+[2024-12-11 17:45:54] [INFO] Added 10 tickets. Pool size: 20, Total sold: 720
+[2024-12-11 17:45:54] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:54] [INFO] Added 10 tickets. Pool size: 20, Total sold: 730
+[2024-12-11 17:45:54] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:54] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:54] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:54] [INFO] Added 10 tickets. Pool size: 10, Total sold: 740
+[2024-12-11 17:45:54] [INFO] Added 10 tickets. Pool size: 20, Total sold: 750
+[2024-12-11 17:45:54] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:54] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:55] [INFO] Added 10 tickets. Pool size: 10, Total sold: 760
+[2024-12-11 17:45:55] [INFO] Added 10 tickets. Pool size: 20, Total sold: 770
+[2024-12-11 17:45:55] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:55] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:55] [INFO] Added 10 tickets. Pool size: 10, Total sold: 780
+[2024-12-11 17:45:55] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:55] [INFO] Added 10 tickets. Pool size: 10, Total sold: 790
+[2024-12-11 17:45:55] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:55] [INFO] Added 10 tickets. Pool size: 10, Total sold: 800
+[2024-12-11 17:45:55] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:56] [INFO] Added 10 tickets. Pool size: 10, Total sold: 810
+[2024-12-11 17:45:56] [INFO] Added 10 tickets. Pool size: 20, Total sold: 820
+[2024-12-11 17:45:56] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:56] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:56] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:56] [INFO] Added 10 tickets. Pool size: 10, Total sold: 830
+[2024-12-11 17:45:56] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:56] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:56] [INFO] Added 10 tickets. Pool size: 10, Total sold: 840
+[2024-12-11 17:45:56] [INFO] Added 10 tickets. Pool size: 20, Total sold: 850
+[2024-12-11 17:45:56] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:56] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:57] [INFO] Added 10 tickets. Pool size: 10, Total sold: 860
+[2024-12-11 17:45:57] [INFO] Added 10 tickets. Pool size: 20, Total sold: 870
+[2024-12-11 17:45:57] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:57] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:57] [INFO] Added 10 tickets. Pool size: 10, Total sold: 880
+[2024-12-11 17:45:57] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:57] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:45:57] [INFO] Added 10 tickets. Pool size: 10, Total sold: 890
+[2024-12-11 17:45:57] [INFO] Added 10 tickets. Pool size: 20, Total sold: 900
+[2024-12-11 17:45:57] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:57] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:58] [INFO] Added 10 tickets. Pool size: 10, Total sold: 910
+[2024-12-11 17:45:58] [INFO] Added 10 tickets. Pool size: 20, Total sold: 920
+[2024-12-11 17:45:58] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:58] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:58] [INFO] Added 10 tickets. Pool size: 10, Total sold: 930
+[2024-12-11 17:45:58] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:58] [INFO] Added 10 tickets. Pool size: 10, Total sold: 940
+[2024-12-11 17:45:58] [INFO] Added 10 tickets. Pool size: 20, Total sold: 950
+[2024-12-11 17:45:58] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:58] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:59] [INFO] Added 10 tickets. Pool size: 10, Total sold: 960
+[2024-12-11 17:45:59] [INFO] Added 10 tickets. Pool size: 20, Total sold: 970
+[2024-12-11 17:45:59] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:59] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:45:59] [INFO] Added 10 tickets. Pool size: 10, Total sold: 980
+[2024-12-11 17:45:59] [INFO] Added 10 tickets. Pool size: 20, Total sold: 990
+[2024-12-11 17:45:59] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:59] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1000
+[2024-12-11 17:45:59] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:45:59] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1010
+[2024-12-11 17:46:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1020
+[2024-12-11 17:46:00] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1030
+[2024-12-11 17:46:00] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:00] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1040
+[2024-12-11 17:46:00] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1050
+[2024-12-11 17:46:00] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:00] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:01] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1060
+[2024-12-11 17:46:01] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:01] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1070
+[2024-12-11 17:46:01] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1080
+[2024-12-11 17:46:01] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:01] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:01] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1090
+[2024-12-11 17:46:01] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1100
+[2024-12-11 17:46:01] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:01] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:02] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1110
+[2024-12-11 17:46:02] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1120
+[2024-12-11 17:46:02] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:02] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:02] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1130
+[2024-12-11 17:46:02] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:02] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1140
+[2024-12-11 17:46:02] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1150
+[2024-12-11 17:46:02] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:02] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:03] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1160
+[2024-12-11 17:46:03] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1170
+[2024-12-11 17:46:03] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:03] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1180
+[2024-12-11 17:46:03] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:03] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1190
+[2024-12-11 17:46:03] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:03] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1200
+[2024-12-11 17:46:03] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:03] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:04] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1210
+[2024-12-11 17:46:04] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:04] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1220
+[2024-12-11 17:46:04] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1230
+[2024-12-11 17:46:04] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:04] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1240
+[2024-12-11 17:46:04] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:04] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1250
+[2024-12-11 17:46:04] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:04] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:05] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1260
+[2024-12-11 17:46:05] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:05] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1270
+[2024-12-11 17:46:05] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1280
+[2024-12-11 17:46:05] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1290
+[2024-12-11 17:46:05] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:05] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:05] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1300
+[2024-12-11 17:46:05] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:05] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:06] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1310
+[2024-12-11 17:46:06] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:06] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1320
+[2024-12-11 17:46:06] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1330
+[2024-12-11 17:46:06] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:06] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:06] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1340
+[2024-12-11 17:46:06] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1350
+[2024-12-11 17:46:06] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:06] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:07] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1360
+[2024-12-11 17:46:07] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1370
+[2024-12-11 17:46:07] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:07] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:07] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1380
+[2024-12-11 17:46:07] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1390
+[2024-12-11 17:46:07] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:07] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1400
+[2024-12-11 17:46:07] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:07] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:08] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1410
+[2024-12-11 17:46:08] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:08] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1420
+[2024-12-11 17:46:08] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:08] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1430
+[2024-12-11 17:46:08] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1440
+[2024-12-11 17:46:08] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1450
+[2024-12-11 17:46:08] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:08] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:08] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:09] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1460
+[2024-12-11 17:46:09] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:09] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1470
+[2024-12-11 17:46:09] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:09] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1480
+[2024-12-11 17:46:09] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1490
+[2024-12-11 17:46:09] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1500
+[2024-12-11 17:46:09] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:09] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:09] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:10] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1510
+[2024-12-11 17:46:10] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:10] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1520
+[2024-12-11 17:46:10] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:10] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1530
+[2024-12-11 17:46:10] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1540
+[2024-12-11 17:46:10] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1550
+[2024-12-11 17:46:10] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:10] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:10] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:11] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1560
+[2024-12-11 17:46:11] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:11] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:46:11] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1570
+[2024-12-11 17:46:11] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:11] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1580
+[2024-12-11 17:46:11] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1590
+[2024-12-11 17:46:11] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1600
+[2024-12-11 17:46:11] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:11] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:11] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1610
+[2024-12-11 17:46:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1620
+[2024-12-11 17:46:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1630
+[2024-12-11 17:46:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:12] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1640
+[2024-12-11 17:46:12] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1650
+[2024-12-11 17:46:12] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:12] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:13] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1660
+[2024-12-11 17:46:13] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:13] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1670
+[2024-12-11 17:46:13] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:13] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1680
+[2024-12-11 17:46:13] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1690
+[2024-12-11 17:46:13] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:13] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1700
+[2024-12-11 17:46:13] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:13] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:14] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1710
+[2024-12-11 17:46:14] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:14] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1720
+[2024-12-11 17:46:14] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1730
+[2024-12-11 17:46:14] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:14] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1740
+[2024-12-11 17:46:14] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:14] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1750
+[2024-12-11 17:46:14] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:14] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:15] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 17:46:15] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1760
+[2024-12-11 17:46:15] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:15] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1770
+[2024-12-11 17:46:15] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1780
+[2024-12-11 17:46:15] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:15] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1790
+[2024-12-11 17:46:15] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1800
+[2024-12-11 17:46:15] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:15] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:15] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:16] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1810
+[2024-12-11 17:46:16] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:16] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1820
+[2024-12-11 17:46:16] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1830
+[2024-12-11 17:46:16] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:16] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1840
+[2024-12-11 17:46:16] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1850
+[2024-12-11 17:46:16] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:16] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:16] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:17] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1860
+[2024-12-11 17:46:17] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1870
+[2024-12-11 17:46:17] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1880
+[2024-12-11 17:46:17] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:17] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:17] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1890
+[2024-12-11 17:46:17] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1900
+[2024-12-11 17:46:17] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:17] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:17] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:18] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1910
+[2024-12-11 17:46:18] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1920
+[2024-12-11 17:46:18] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1930
+[2024-12-11 17:46:18] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:18] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:18] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1940
+[2024-12-11 17:46:18] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1950
+[2024-12-11 17:46:18] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:18] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:18] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:19] [INFO] Added 10 tickets. Pool size: 10, Total sold: 1960
+[2024-12-11 17:46:19] [INFO] Added 10 tickets. Pool size: 20, Total sold: 1970
+[2024-12-11 17:46:19] [INFO] Added 10 tickets. Pool size: 30, Total sold: 1980
+[2024-12-11 17:46:19] [INFO] Added 10 tickets. Pool size: 40, Total sold: 1990
+[2024-12-11 17:46:19] [INFO] Purchased 10 tickets. Remaining in pool: 30
+[2024-12-11 17:46:19] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:19] [INFO] Added 10 tickets. Pool size: 30, Total sold: 2000
+[2024-12-11 17:46:19] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:46:19] [INFO] Purchased 10 tickets. Remaining in pool: 20
+[2024-12-11 17:46:19] [INFO] Purchased 10 tickets. Remaining in pool: 10
+[2024-12-11 17:46:19] [INFO] Purchased 10 tickets. Remaining in pool: 0
+[2024-12-11 17:46:20] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:46:20] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:46:20] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:46:20] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:46:20] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:46:20] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:46:20] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 17:46:20] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 17:46:20] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:46:20] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:46:20] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:46:20] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:46:20] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:46:20] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:46:20] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:46:20] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:46:20] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 17:46:20] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 17:46:20] [INFO] Simulation completed successfully. Total tickets sold: 2000
+[2024-12-11 18:00:40] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 18:00:40] [INFO] Graceful shutdown complete
+[2024-12-11 18:00:45] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 22920 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 18:00:45] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 18:00:46] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 18:00:46] [INFO] Root WebApplicationContext: initialization completed in 883 ms
+[2024-12-11 18:00:47] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 18:00:47] [INFO] Started TicketingSystem in 1.726 seconds (process running for 2.584)
+[2024-12-11 18:00:47] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 18:00:53] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 18:00:53] [INFO] Completed initialization in 1 ms
+[2024-12-11 18:01:31] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 18:01:31] [INFO] Graceful shutdown complete
+[2024-12-11 18:01:35] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 26284 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 18:01:35] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 18:01:36] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 18:01:36] [INFO] Root WebApplicationContext: initialization completed in 877 ms
+[2024-12-11 18:01:36] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 18:01:36] [INFO] Started TicketingSystem in 1.669 seconds (process running for 2.442)
+[2024-12-11 18:01:36] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 18:01:41] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 18:01:41] [INFO] Completed initialization in 2 ms
+[2024-12-11 18:03:44] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 18:03:45] [INFO] Graceful shutdown complete
+[2024-12-11 18:05:06] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 6604 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 18:05:06] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 18:05:06] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 18:05:06] [INFO] Root WebApplicationContext: initialization completed in 877 ms
+[2024-12-11 18:05:07] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 18:05:07] [INFO] Started TicketingSystem in 1.666 seconds (process running for 2.448)
+[2024-12-11 18:05:07] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 18:06:49] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 18:06:49] [INFO] Completed initialization in 1 ms
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 50, Total sold: 50
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 10
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 60, Total sold: 100
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 110, Total sold: 150
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 160, Total sold: 200
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 210, Total sold: 250
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 260, Total sold: 300
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 310, Total sold: 350
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 360, Total sold: 400
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 410, Total sold: 450
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 460, Total sold: 500
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 510, Total sold: 550
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 560, Total sold: 600
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 610, Total sold: 650
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 660, Total sold: 700
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 710, Total sold: 750
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 760, Total sold: 800
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 810, Total sold: 850
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 860, Total sold: 900
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 910, Total sold: 950
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 960, Total sold: 1000
+[2024-12-11 18:07:01] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 18:07:01] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 18:07:01] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 18:07:01] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 18:07:01] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 920
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 880
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 840
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 800
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 760
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 720
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 680
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 640
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 600
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 560
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 520
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 480
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 440
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 400
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 360
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 320
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 280
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 240
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 200
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 160
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 120
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 80
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 40
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 0
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 50, Total sold: 1050
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 100, Total sold: 1100
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 150, Total sold: 1150
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 200, Total sold: 1200
+[2024-12-11 18:07:01] [INFO] Added 50 tickets. Pool size: 250, Total sold: 1250
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 210
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 170
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 130
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 90
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 50
+[2024-12-11 18:07:01] [INFO] Purchased 40 tickets. Remaining in pool: 10
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:01] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 60, Total sold: 1300
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 20
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 70, Total sold: 1350
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 30
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 80, Total sold: 1400
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 130, Total sold: 1450
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 180, Total sold: 1500
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 230, Total sold: 1550
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 280, Total sold: 1600
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 330, Total sold: 1650
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 380, Total sold: 1700
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 430, Total sold: 1750
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 480, Total sold: 1800
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 530, Total sold: 1850
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 580, Total sold: 1900
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 630, Total sold: 1950
+[2024-12-11 18:07:02] [INFO] Added 50 tickets. Pool size: 680, Total sold: 2000
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 640
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 600
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 560
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 520
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 480
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 440
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 400
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 360
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 320
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 280
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 240
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 200
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 160
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 120
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 80
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 40
+[2024-12-11 18:07:02] [INFO] Purchased 40 tickets. Remaining in pool: 0
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:02] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:02] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:02] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 18:07:03] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 18:07:03] [INFO] Simulation completed successfully. Total tickets sold: 2000
+[2024-12-11 18:08:29] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 18:08:29] [INFO] Graceful shutdown complete
+[2024-12-11 18:08:31] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 1392 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 18:08:31] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 18:08:32] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 18:08:32] [INFO] Root WebApplicationContext: initialization completed in 816 ms
+[2024-12-11 18:08:33] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 18:08:33] [INFO] Started TicketingSystem in 1.604 seconds (process running for 2.428)
+[2024-12-11 18:08:33] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 18:08:34] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 18:08:34] [INFO] Completed initialization in 1 ms
+[2024-12-11 18:08:39] [INFO] Added 10 tickets. Pool size: 10, Total sold: 10
+[2024-12-11 18:08:39] [INFO] Purchased 5 tickets. Remaining in pool: 5
+[2024-12-11 18:08:39] [INFO] Purchased 5 tickets. Remaining in pool: 0
+[2024-12-11 18:08:39] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:08:39] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 18:08:39] [INFO] Added 10 tickets. Pool size: 10, Total sold: 20
+[2024-12-11 18:08:39] [INFO] Added 10 tickets. Pool size: 20, Total sold: 30
+[2024-12-11 18:08:39] [INFO] Purchased 5 tickets. Remaining in pool: 15
+[2024-12-11 18:08:39] [INFO] Purchased 5 tickets. Remaining in pool: 10
+[2024-12-11 18:08:40] [INFO] Added 10 tickets. Pool size: 20, Total sold: 40
+[2024-12-11 18:08:40] [INFO] Purchased 5 tickets. Remaining in pool: 15
+[2024-12-11 18:08:40] [INFO] Purchased 5 tickets. Remaining in pool: 10
+[2024-12-11 18:08:40] [INFO] Added 10 tickets. Pool size: 20, Total sold: 50
+[2024-12-11 18:08:40] [INFO] Purchased 5 tickets. Remaining in pool: 15
+[2024-12-11 18:08:40] [INFO] Added 10 tickets. Pool size: 25, Total sold: 60
+[2024-12-11 18:08:40] [INFO] Purchased 5 tickets. Remaining in pool: 20
+[2024-12-11 18:08:41] [INFO] Purchased 5 tickets. Remaining in pool: 15
+[2024-12-11 18:08:41] [INFO] Purchased 5 tickets. Remaining in pool: 10
+[2024-12-11 18:08:41] [INFO] Purchased 5 tickets. Remaining in pool: 5
+[2024-12-11 18:08:41] [INFO] Added 10 tickets. Pool size: 15, Total sold: 70
+[2024-12-11 18:08:41] [INFO] Purchased 5 tickets. Remaining in pool: 10
+[2024-12-11 18:08:41] [INFO] Added 10 tickets. Pool size: 20, Total sold: 80
+[2024-12-11 18:08:41] [INFO] Added 10 tickets. Pool size: 30, Total sold: 90
+[2024-12-11 18:08:42] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 18:08:42] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:42] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:42] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 18:08:42] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:42] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:42] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 18:08:42] [INFO] Simulation completed successfully. Total tickets sold: 90
+[2024-12-11 18:08:44] [INFO] Added 10 tickets. Pool size: 40, Total sold: 100
+[2024-12-11 18:08:44] [INFO] Purchased 5 tickets. Remaining in pool: 35
+[2024-12-11 18:08:44] [INFO] Added 10 tickets. Pool size: 45, Total sold: 110
+[2024-12-11 18:08:44] [INFO] Purchased 5 tickets. Remaining in pool: 40
+[2024-12-11 18:08:44] [INFO] Purchased 5 tickets. Remaining in pool: 35
+[2024-12-11 18:08:44] [INFO] Purchased 5 tickets. Remaining in pool: 30
+[2024-12-11 18:08:44] [INFO] Added 10 tickets. Pool size: 40, Total sold: 120
+[2024-12-11 18:08:45] [INFO] Added 10 tickets. Pool size: 50, Total sold: 130
+[2024-12-11 18:08:45] [INFO] Purchased 5 tickets. Remaining in pool: 45
+[2024-12-11 18:08:45] [INFO] Added 10 tickets. Pool size: 55, Total sold: 140
+[2024-12-11 18:08:45] [INFO] Purchased 5 tickets. Remaining in pool: 50
+[2024-12-11 18:08:45] [INFO] Purchased 5 tickets. Remaining in pool: 45
+[2024-12-11 18:08:45] [INFO] Purchased 5 tickets. Remaining in pool: 40
+[2024-12-11 18:08:45] [INFO] Added 10 tickets. Pool size: 50, Total sold: 150
+[2024-12-11 18:08:46] [INFO] Added 10 tickets. Pool size: 60, Total sold: 160
+[2024-12-11 18:08:46] [INFO] Purchased 5 tickets. Remaining in pool: 55
+[2024-12-11 18:08:46] [INFO] Added 10 tickets. Pool size: 65, Total sold: 170
+[2024-12-11 18:08:46] [INFO] Purchased 5 tickets. Remaining in pool: 60
+[2024-12-11 18:08:46] [INFO] Added 10 tickets. Pool size: 70, Total sold: 180
+[2024-12-11 18:08:46] [INFO] Purchased 5 tickets. Remaining in pool: 65
+[2024-12-11 18:08:46] [INFO] Purchased 5 tickets. Remaining in pool: 60
+[2024-12-11 18:08:47] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 18:08:47] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:47] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:47] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:47] [ERROR] Customer thread interrupted unexpectedly.
+[2024-12-11 18:08:47] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 18:08:47] [ERROR] Vendor thread interrupted unexpectedly.
+[2024-12-11 18:08:47] [INFO] Simulation completed successfully. Total tickets sold: 180
+[2024-12-11 18:31:01] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 18:31:01] [INFO] Graceful shutdown complete
+[2024-12-11 18:51:07] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 26060 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 18:51:07] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 18:51:08] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 18:51:08] [INFO] Root WebApplicationContext: initialization completed in 1084 ms
+[2024-12-11 18:51:09] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 18:51:09] [INFO] Started TicketingSystem in 1.897 seconds (process running for 2.771)
+[2024-12-11 18:51:09] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 18:51:27] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 18:51:27] [INFO] Completed initialization in 2 ms
+[2024-12-11 18:51:27] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 18:52:39] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 18:52:39] [INFO] Graceful shutdown complete
+[2024-12-11 19:09:05] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 7972 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 19:09:05] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 19:09:06] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 19:09:06] [INFO] Root WebApplicationContext: initialization completed in 891 ms
+[2024-12-11 19:09:07] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 19:09:07] [INFO] Started TicketingSystem in 1.691 seconds (process running for 2.508)
+[2024-12-11 19:09:07] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 19:09:15] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 19:09:15] [INFO] Completed initialization in 1 ms
+[2024-12-11 19:09:15] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 19:09:53] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 19:11:43] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 19:11:43] [INFO] Graceful shutdown complete
+[2024-12-11 19:11:47] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 13428 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 19:11:47] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 19:11:48] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 19:11:48] [INFO] Root WebApplicationContext: initialization completed in 910 ms
+[2024-12-11 19:11:48] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 19:11:48] [INFO] Started TicketingSystem in 1.705 seconds (process running for 2.463)
+[2024-12-11 19:11:48] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 19:11:54] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 19:11:54] [INFO] Completed initialization in 1 ms
+[2024-12-11 19:13:45] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 19:13:45] [INFO] Graceful shutdown complete
+[2024-12-11 19:13:51] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 7236 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 19:13:51] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 19:13:52] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 19:13:52] [INFO] Root WebApplicationContext: initialization completed in 979 ms
+[2024-12-11 19:13:52] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 19:13:52] [INFO] Started TicketingSystem in 1.884 seconds (process running for 2.785)
+[2024-12-11 19:13:52] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 19:14:00] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 19:14:00] [INFO] Completed initialization in 1 ms
+[2024-12-11 19:14:14] [WARN] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> org.pasanaksitha.com.cli2.util.ConfigController.configureSystem(org.pasanaksitha.com.cli2.config.Config)]
+[2024-12-11 19:14:36] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 19:14:36] [INFO] Graceful shutdown complete
+[2024-12-11 19:14:40] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 2936 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 19:14:40] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 19:14:41] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 19:14:41] [INFO] Root WebApplicationContext: initialization completed in 855 ms
+[2024-12-11 19:14:42] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 19:14:42] [INFO] Started TicketingSystem in 1.627 seconds (process running for 2.418)
+[2024-12-11 19:14:42] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 19:14:53] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 19:14:53] [INFO] Completed initialization in 1 ms
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 50, Total sold: 50
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 10
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 60, Total sold: 100
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 110, Total sold: 150
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 160, Total sold: 200
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 210, Total sold: 250
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 260, Total sold: 300
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 310, Total sold: 350
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 360, Total sold: 400
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 410, Total sold: 450
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 460, Total sold: 500
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 510, Total sold: 550
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 560, Total sold: 600
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 610, Total sold: 650
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 660, Total sold: 700
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 710, Total sold: 750
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 760, Total sold: 800
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 810, Total sold: 850
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 860, Total sold: 900
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 910, Total sold: 950
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 960, Total sold: 1000
+[2024-12-11 19:16:52] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 19:16:52] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 19:16:52] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 19:16:52] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 19:16:52] [INFO] Ticket pool full. Vendor waiting...
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 920
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 880
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 840
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 800
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 760
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 720
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 680
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 640
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 600
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 560
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 520
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 480
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 440
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 400
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 360
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 320
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 280
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 240
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 200
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 160
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 120
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 80
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 40
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 0
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 50, Total sold: 1050
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 100, Total sold: 1100
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 150, Total sold: 1150
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 200, Total sold: 1200
+[2024-12-11 19:16:52] [INFO] Added 50 tickets. Pool size: 250, Total sold: 1250
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 210
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 170
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 130
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 90
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 50
+[2024-12-11 19:16:52] [INFO] Purchased 40 tickets. Remaining in pool: 10
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:52] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 60, Total sold: 1300
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 20
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 70, Total sold: 1350
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 30
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Not enough tickets in pool. Customer waiting...
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 80, Total sold: 1400
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 130, Total sold: 1450
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 180, Total sold: 1500
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 230, Total sold: 1550
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 280, Total sold: 1600
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 330, Total sold: 1650
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 380, Total sold: 1700
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 430, Total sold: 1750
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 480, Total sold: 1800
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 530, Total sold: 1850
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 580, Total sold: 1900
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 630, Total sold: 1950
+[2024-12-11 19:16:53] [INFO] Added 50 tickets. Pool size: 680, Total sold: 2000
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 640
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 600
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 560
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 520
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 480
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 440
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 400
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 360
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 320
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 280
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 240
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 200
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 160
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 120
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 80
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 40
+[2024-12-11 19:16:53] [INFO] Purchased 40 tickets. Remaining in pool: 0
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:53] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:53] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:53] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:53] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:54] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:54] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:54] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] All tickets sold. Stopping customer operations.
+[2024-12-11 19:16:55] [INFO] Customer operations stopped as all tickets are sold.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Event ticket limit reached. No further tickets can be issued.
+[2024-12-11 19:16:55] [INFO] Vendor operations halted as all tickets are issued.
+[2024-12-11 19:16:55] [INFO] Simulation completed successfully. Total tickets sold: 2000
+[2024-12-11 19:17:07] [WARN] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[2024-12-11 19:18:19] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 19:18:19] [INFO] Graceful shutdown complete
+[2024-12-11 19:18:22] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 21864 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 19:18:22] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 19:18:22] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 19:18:23] [INFO] Root WebApplicationContext: initialization completed in 931 ms
+[2024-12-11 19:18:23] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 19:18:23] [INFO] Started TicketingSystem in 1.757 seconds (process running for 2.593)
+[2024-12-11 19:18:23] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 19:18:30] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 19:18:30] [INFO] Graceful shutdown complete
+[2024-12-11 19:18:46] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 15048 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 19:18:46] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 19:18:47] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 19:18:47] [INFO] Root WebApplicationContext: initialization completed in 862 ms
+[2024-12-11 19:18:48] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 19:18:48] [INFO] Started TicketingSystem in 1.685 seconds (process running for 2.502)
+[2024-12-11 19:18:48] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 19:18:48] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 19:18:48] [INFO] Completed initialization in 2 ms
+[2024-12-11 19:18:48] [WARN] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> org.pasanaksitha.com.cli2.util.ConfigController.configureSystem(org.pasanaksitha.com.cli2.config.Config)]
+[2024-12-11 19:19:40] [INFO] Commencing graceful shutdown. Waiting for active requests to complete
+[2024-12-11 19:19:40] [INFO] Graceful shutdown complete
+[2024-12-11 19:19:44] [INFO] Starting TicketingSystem using Java 21.0.5 with PID 6664 (C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend\target\classes started by ipasa in C:\Users\ipasa\Documents\IIT\OOP CW\CLI\OOP\Backend)
+[2024-12-11 19:19:44] [INFO] The following 1 profile is active: "dev"
+[2024-12-11 19:19:45] [INFO] Tomcat initialized with port 8080 (http)
+[2024-12-11 19:19:45] [INFO] Root WebApplicationContext: initialization completed in 1065 ms
+[2024-12-11 19:19:46] [INFO] Tomcat started on port 8080 (http) with context path '/'
+[2024-12-11 19:19:46] [INFO] Started TicketingSystem in 2.085 seconds (process running for 3.721)
+[2024-12-11 19:19:46] [INFO] Spring Boot Application Started. Use the API endpoint '/api/config' to configure the system.
+[2024-12-11 19:19:55] [INFO] Initializing Servlet 'dispatcherServlet'
+[2024-12-11 19:19:55] [INFO] Completed initialization in 1 ms
+[2024-12-11 19:19:55] [WARN] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> org.pasanaksitha.com.cli2.util.ConfigController.configureSystem(org.pasanaksitha.com.cli2.config.Config)]
