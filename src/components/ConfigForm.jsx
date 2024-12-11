@@ -1,6 +1,7 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { TextField, Button, Container, Typography, Box } from '@mui/material';
-import { saveConfig, loadConfig, startSimulation, stopSimulation } from '../services/api'; // Assuming all endpoints are defined in `api.js`
+import { saveConfig, loadConfig, startSimulation, stopSimulation, resetSimulation, fetchLogs } from '../services/api'; // Assuming all endpoints are defined in `api.js`
+
 
 const ConfigForm = () => {
     const [config, setConfig] = useState({
@@ -12,6 +13,7 @@ const ConfigForm = () => {
         customerCount: '',
     });
 
+    const [isPolling, setIsPolling] = useState(false);
     const terminalRef = useRef(null);
     const [logs, setLogs] = useState([]);
 
@@ -21,10 +23,9 @@ const ConfigForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
         try {
             await saveConfig(config);
-            alert('Configuration saved successfully!');
+            // alert('Configuration saved successfully!');
         } catch (error) {
             alert('Failed to save configuration.');
             console.error(error);
@@ -35,7 +36,7 @@ const ConfigForm = () => {
         try {
             const data = await loadConfig();
             setConfig(data);
-            alert('Configuration loaded successfully!');
+            // alert('Configuration loaded successfully!');
         } catch (error) {
             alert('Failed to load configuration.');
             console.error(error);
@@ -46,6 +47,7 @@ const ConfigForm = () => {
         try {
             await startSimulation();
             alert('Simulation started successfully!');
+            startPolling(); // Start polling when the simulation begins
         } catch (error) {
             alert('Failed to start simulation.');
             console.error(error);
@@ -56,11 +58,48 @@ const ConfigForm = () => {
         try {
             await stopSimulation();
             alert('Simulation stopped successfully!');
+            stopPolling(); // Stop polling when the simulation ends
         } catch (error) {
             alert('Failed to stop simulation.');
             console.error(error);
         }
     };
+
+    const handleRestSimulation = async () => {
+        try {
+            await resetSimulation();
+            // alert('Simulation Reset successfully!');
+        } catch (error) {
+            alert('Failed to Reset simulation.');
+            console.error(error);
+        }
+    };
+
+    const startPolling = () => {
+        setIsPolling(true);
+    };
+
+    const stopPolling = () => {
+        setIsPolling(false);
+    };
+
+    useEffect(() => {
+        let interval;
+        if (isPolling) {
+            interval = setInterval(async () => {
+                try {
+                    const newLogs = await fetchLogs();
+                    setLogs((prevLogs) => [...prevLogs, ...newLogs]); // Append new logs to the existing ones
+                    if (terminalRef.current) {
+                        terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
+                    }
+                } catch (error) {
+                    console.error('Error fetching logs:', error);
+                }
+            }, 2000); // Fetch logs every 2 seconds
+        }
+        return () => clearInterval(interval);
+    }, [isPolling]);
 
     return (
         <Container>
@@ -134,6 +173,9 @@ const ConfigForm = () => {
                     </Button>
                     <Button variant="contained" color="error" onClick={handleStopSimulation}>
                         Stop Simulation
+                    </Button>
+                    <Button variant="contained" color="warning" onClick={handleRestSimulation}>
+                        Reset Simulation
                     </Button>
                 </Box>
             </form>

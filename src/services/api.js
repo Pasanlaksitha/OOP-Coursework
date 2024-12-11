@@ -34,3 +34,12 @@ export const stopSimulation = async () => {
 export const resetSimulation = async () => {
   return await axiosInstance.post('/reset');
 };
+
+export const fetchLogs = async () => {
+  const response = await axiosInstance.get('/logs');
+  return response.data;
+};
+
+
+export class handleRestSimulation {
+}
