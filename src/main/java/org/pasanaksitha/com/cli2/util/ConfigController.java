@@ -15,6 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 @RestController
 @RequestMapping("/api")
@@ -129,17 +132,35 @@ public class ConfigController {
         return ResponseEntity.ok("Simulation reset successfully. configure again using /config.");
     }
 
-    @RestController
-    public class LogController {
-        @GetMapping("/logs")
-        public List<String> getLogs() {
-            // Return a list of logs
-            List<String> logs = new ArrayList<>();
-            logs.add("[INFO] Example log 1.");
-            logs.add("[INFO] Example log 2.");
-            return logs;
-        }
-    }
+//    @RestController
+//    public class LogController {
+//        @GetMapping("/logs")
+//        public List<String> getLogs() {
+//            // Return a list of logs
+//            List<String> logs = new ArrayList<>();
+//            logs.add("[INFO] Example log 1.");
+//           // logs.add("[INFO] Example log 2.");
+//            return logs;
+//        }
+//    }
+
+//    @RestController
+//    public class LogController {
+//        @GetMapping("/logs")
+//        public List<String> getLogs() {
+//            List<String> logs = new ArrayList<>();
+//            try (BufferedReader reader = new BufferedReader(new FileReader("ticketingSystem.log"))) {
+//                String line;
+//                while ((line = reader.readLine()) != null) {
+//                    logs.add(line);
+//                }
+//            } catch (IOException e) {
+//                throw new RuntimeException("Failed to read logs: " + e.getMessage());
+//            }
+//            return logs;
+//        }
+//    }
+
 
 
 
