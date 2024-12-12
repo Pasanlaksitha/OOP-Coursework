@@ -23,7 +23,8 @@ public class Config {
 //    private static final String CONFIG_FILE = System.getProperty("com.pasanlaksitha.com.config.file.path", DEFAULT_CONFIG_FILE);
 
     public boolean loadConfig() {
-        Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
+    while (true) {
         System.out.print("Do you want to load the saved configuration? (yes/no): ");
         String choice = scanner.nextLine().trim().toLowerCase();
 
@@ -45,17 +46,32 @@ public class Config {
             } catch (IOException e) {
                 LoggerUtil.error("No saved configuration found or error reading file.");
             }
+            return false;
+        } else if (choice.equals("no")) {
+            LoggerUtil.infoMessage("Configuration loading skipped.");
+            return false;
+        } else {
+            LoggerUtil.warning("Invalid input. Please enter 'yes' or 'no'.");
         }
-        return false;
     }
+}
+
 
     public void saveConfigPrompt() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Do you want to save this configuration? (yes/no): ");
-        String choice = scanner.nextLine().trim().toLowerCase();
+        while (true) {
+            System.out.print("Do you want to save this configuration? (yes/no): ");
+            String choice = scanner.nextLine().trim().toLowerCase();
 
-        if (choice.equals("yes")) {
-            saveConfig();
+            if (choice.equals("yes")) {
+                saveConfig();
+                break;
+            } else if (choice.equals("no")) {
+                LoggerUtil.infoMessage("Configuration not saved.");
+                break;
+            } else {
+                LoggerUtil.warning("Invalid input. Please enter 'yes' or 'no'.");
+            }
         }
     }
 
@@ -81,6 +97,9 @@ public class Config {
 
         LoggerUtil.infoMessage("System configured successfully!");
     }
+
+
+
 
     private int getPositiveIntegerInput(Scanner scanner, String prompt) {
         while (true) {

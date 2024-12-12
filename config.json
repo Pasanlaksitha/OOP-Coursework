@@ -1,8 +1,8 @@
 {
-  "totalEventTickets": 120,
-  "maxPoolCapacity": 150,
-  "ticketReleaseRate": 10,
-  "customerRetrievalRate": 5,
-  "vendorCount": 2,
-  "customerCount": 2
+  "totalEventTickets": 200,
+  "maxPoolCapacity": 50,
+  "ticketReleaseRate": 7,
+  "customerRetrievalRate": 6,
+  "vendorCount": 5,
+  "customerCount": 4
 }
