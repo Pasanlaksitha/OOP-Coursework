@@ -52,7 +52,7 @@ src/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/repository.git
+   git clone https://github.com/Pasanlaksitha/OOP-Coursework.git 
    cd CLI2
    ```
 
@@ -62,10 +62,7 @@ src/
    mvn clean install
    ```
 
-3. **Run the Application**:
-   ```bash
-   java -jar target/CLI2-1.0-SNAPSHOT.jar
-   ```
+3. **Run the Application**
 
 4. **Follow the Prompts**:
     - Configure the system by entering the required parameters.
