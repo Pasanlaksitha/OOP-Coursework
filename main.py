@@ -33,7 +33,7 @@ def write_directory_tree(root_dir, file, ignore=None, indent=""):
             file.write(f"{indent}├── {item}\n")
 
 def main():
-    project_root = "C:\\Users\\PC\\Desktop\\Courseworks\\OOP 2nd Year CW\\UI\\"  
+    project_root = "C:\\Users\\ipasa\\Documents\\IIT\\OOP CW\\CLI\\OOP\\frontend"  
     ignore_list = ["frontend", ".idea", ".vscode", ".git", "node_modules"] 
 
     print(f"{project_root}/")
