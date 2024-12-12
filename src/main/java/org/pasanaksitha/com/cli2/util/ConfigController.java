@@ -1,24 +1,19 @@
 package org.pasanaksitha.com.cli2.util;
 
 import org.pasanaksitha.com.cli2.config.Config;
-import org.pasanaksitha.com.cli2.core.Customer;
-import org.pasanaksitha.com.cli2.core.Vendor;
-import org.pasanaksitha.com.cli2.core.TicketPool;
+import org.pasanaksitha.com.cli2.model.Customer;
+import org.pasanaksitha.com.cli2.model.Vendor;
+import org.pasanaksitha.com.cli2.model.TicketPool;
 import org.pasanaksitha.com.cli2.TicketingSystem;
-import org.pasanaksitha.com.cli2.util.WebConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-import java.util.ArrayList;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-
+/**
+ * The ConfigController class provides REST API endpoints to manage and control the ticketing system's configuration and simulation lifecycle.
+ */
 @RestController
 @RequestMapping("/api")
 public class ConfigController {
@@ -30,12 +25,18 @@ public class ConfigController {
     private Thread[] vendorThreads;
     private Thread[] customerThreads;
 
+    /**
+     * API endpoint to configure the system.
+     * Updates the configuration parameters and initializes the ticket pool.
+     *
+     * @param inputConfig Configuration object with updated values
+     * @return ResponseEntity with success or failure message
+     */
     @PostMapping("/config")
     public ResponseEntity<String> configureSystem(@RequestBody Config inputConfig) {
-        // Update configuration with inputs
         config.updateConfig(inputConfig);
 
-        // Initialize ticket pool with new config
+        // Initialize ticket pool with updated configuration
         TicketingSystem.ticketPool = new TicketPool(
                 config.getMaxPoolCapacity(),
                 config.getTotalEventTickets()
@@ -48,6 +49,12 @@ public class ConfigController {
         return ResponseEntity.ok("Configuration updated successfully.");
     }
 
+    /**
+     * API endpoint to start the simulation.
+     * Initializes and starts vendor and customer threads.
+     *
+     * @return ResponseEntity with success or failure message
+     */
     @PostMapping("/start-simulation")
     public ResponseEntity<String> startSimulation() {
         if (TicketingSystem.ticketPool == null) {
@@ -71,7 +78,7 @@ public class ConfigController {
             customerThreads[i].start();
         }
 
-        // Run a monitoring thread to wait for all threads to complete
+        // Monitoring thread to wait for all threads to complete
         new Thread(() -> {
             try {
                 for (Thread thread : vendorThreads) {
@@ -91,6 +98,12 @@ public class ConfigController {
         return ResponseEntity.ok("Simulation started successfully.");
     }
 
+    /**
+     * API endpoint to stop the simulation.
+     * Interrupts all vendor and customer threads.
+     *
+     * @return ResponseEntity with success or failure message
+     */
     @PostMapping("/stop")
     public ResponseEntity<String> stopSimulation() {
         if (!TicketingSystem.isRunning) {
@@ -99,7 +112,6 @@ public class ConfigController {
 
         TicketingSystem.isRunning = false;
 
-        // Interrupt all threads
         if (vendorThreads != null) {
             for (Thread thread : vendorThreads) {
                 if (thread != null) thread.interrupt();
@@ -115,9 +127,14 @@ public class ConfigController {
         return ResponseEntity.ok("Simulation stopped successfully.");
     }
 
+    /**
+     * API endpoint to reset the simulation.
+     * Stops the simulation and resets the configuration and ticket pool.
+     *
+     * @return ResponseEntity with success or failure message
+     */
     @PostMapping("/reset")
     public ResponseEntity<String> resetSimulation() {
-        // Stop the simulation if running
         stopSimulation();
 
         // Reset the configuration and ticket pool
@@ -127,10 +144,11 @@ public class ConfigController {
         TicketingSystem.vendorCount = 0;
         TicketingSystem.customerCount = 0;
 
-        config.reset(); // Reset the Config object (add a reset method in Config class)
+        config.reset();
 
         return ResponseEntity.ok("Simulation reset successfully. configure again using /config.");
     }
+
 
 //    @RestController
 //    public class LogController {
@@ -160,8 +178,4 @@ public class ConfigController {
 //            return logs;
 //        }
 //    }
-
-
-
-
 }
