@@ -6,62 +6,79 @@ import org.pasanaksitha.com.cli2.core.TicketPool;
 import org.pasanaksitha.com.cli2.core.Vendor;
 import org.pasanaksitha.com.cli2.util.LoggerUtil;
 
+/**
+ * The TicketingSystem class serves as the entry point for the CLI-based ticket simulation system.
+ * It orchestrates the configuration of the system, initialization of threads, and the overall simulation lifecycle.
+ * This program simulates vendors issuing tickets and customers retrieving tickets in a multi-threaded environment.
+ */
 public class TicketingSystem {
-	public static boolean isRunning = true;
-	public static TicketPool ticketPool;
-	public static int ticketReleaseRate;
-	public static int customerRetrievalRate;
-	public static int vendorCount;
-	public static int customerCount;
+    // Global flag to indicate whether the simulation is running
+    public static boolean isRunning = true;
 
-	public static void main(String[] args) {
-		Config config = new Config();
+    // Shared resources and configuration parameters for the simulation
+    public static TicketPool ticketPool;
+    public static int ticketReleaseRate;
+    public static int customerRetrievalRate;
+    public static int vendorCount;
+    public static int customerCount;
 
-		// Load configuration or get user inputs
-		if (!config.loadConfig()) {
-			config.configureSystem();
-			config.saveConfigPrompt();
-		}
+    /**
+     * The main method initializes the ticketing system, manages configuration, and starts the simulation.
+     *
+     * @param args Command-line arguments (not used in this application).
+     */
+    public static void main(String[] args) {
+        // Initialize the configuration object
+        Config config = new Config();
 
-		// Initialize variables with the configuration
-		ticketReleaseRate = config.getTicketReleaseRate();
-		customerRetrievalRate = config.getCustomerRetrievalRate();
-		vendorCount = config.getVendorCount();
-		customerCount = config.getCustomerCount();
-		ticketPool = new TicketPool(config.getMaxPoolCapacity(), config.getTotalEventTickets());
+        // Load existing configuration or prompt the user for new inputs
+        if (!config.loadConfig()) {
+            config.configureSystem(); // Configure the system with user inputs
+            config.saveConfigPrompt(); // Prompt the user to save the configuration
+        }
 
-		Thread[] vendorThreads = new Thread[vendorCount];
-		Thread[] customerThreads = new Thread[customerCount];
+        // Initialize simulation parameters from the configuration
+        ticketReleaseRate = config.getTicketReleaseRate();
+        customerRetrievalRate = config.getCustomerRetrievalRate();
+        vendorCount = config.getVendorCount();
+        customerCount = config.getCustomerCount();
+        ticketPool = new TicketPool(config.getMaxPoolCapacity(), config.getTotalEventTickets());
 
-		// Start vendor threads
-		for (int i = 0; i < vendorCount; i++) {
-			vendorThreads[i] = new Thread(new Vendor());
-			vendorThreads[i].start();
-		}
+        // Create arrays to manage threads for vendors and customers
+        Thread[] vendorThreads = new Thread[vendorCount];
+        Thread[] customerThreads = new Thread[customerCount];
 
-		// Start customer threads
-		for (int i = 0; i < customerCount; i++) {
-			customerThreads[i] = new Thread(new Customer());
-			customerThreads[i].start();
-		}
+        // Start vendor threads to simulate ticket issuing
+        for (int i = 0; i < vendorCount; i++) {
+            vendorThreads[i] = new Thread(new Vendor());
+            vendorThreads[i].start();
+        }
 
-		// Wait for threads to finish
-		for (Thread thread : vendorThreads) {
-			try {
-				thread.join();
-			} catch (InterruptedException e) {
-				System.out.println("Vendor thread interrupted while waiting.");
-			}
-		}
+        // Start customer threads to simulate ticket retrieval
+        for (int i = 0; i < customerCount; i++) {
+            customerThreads[i] = new Thread(new Customer());
+            customerThreads[i].start();
+        }
 
-		for (Thread thread : customerThreads) {
-			try {
-				thread.join();
-			} catch (InterruptedException e) {
-				LoggerUtil.infoMessage("Customer thread interrupted while waiting.");
-			}
-		}
+        // Wait for all vendor threads to complete their tasks
+        for (Thread thread : vendorThreads) {
+            try {
+                thread.join(); // Wait for the thread to finish
+            } catch (InterruptedException e) {
+                System.out.println("Vendor thread interrupted while waiting.");
+            }
+        }
 
-		LoggerUtil.infoMessage("System shutdown. Total tickets sold: " + ticketPool.getTotalTicketsSold());
-	}
+        // Wait for all customer threads to complete their tasks
+        for (Thread thread : customerThreads) {
+            try {
+                thread.join(); // Wait for the thread to finish
+            } catch (InterruptedException e) {
+                LoggerUtil.infoMessage("Customer thread interrupted while waiting.");
+            }
+        }
+
+        // Log a message indicating system shutdown and the total tickets sold
+        LoggerUtil.infoMessage("System shutdown. Total tickets sold: " + ticketPool.getTotalTicketsSold());
+    }
 }
